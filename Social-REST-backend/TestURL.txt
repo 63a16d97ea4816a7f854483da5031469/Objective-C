@@ -1,0 +1,4 @@
+http://localhost:8080/employee/list
+http://localhost:8080/employee/2
+or:
+http://localhost:8080/RestCrud/employee/list

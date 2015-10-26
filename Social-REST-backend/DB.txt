@@ -1,0 +1,45 @@
+//user
+
+CREATE TABLE `user` (
+  `email` varchar(50) NOT NULL,
+  `nickname` varchar(45) NOT NULL,
+  `avatar` varchar(100) NOT NULL,
+  `date` datetime NOT NULL,
+  `gender` varchar(45) NOT NULL,
+  `authenticated` varchar(45) NOT NULL,
+  PRIMARY KEY (`email`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+
+
+//post
+CREATE TABLE `post` (
+  `postid` varchar(100) NOT NULL,
+  `userid` varchar(50) NOT NULL,
+  `text` varchar(150) CHARACTER SET utf8 NOT NULL,
+  `time` datetime NOT NULL,
+  `images` varchar(100) NOT NULL,
+  `comments` int(11) NOT NULL DEFAULT '0',
+  `likes` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`postid`),
+  UNIQUE KEY `postid_UNIQUE` (`postid`),
+  KEY `userid_idx` (`userid`),
+  CONSTRAINT `userid` FOREIGN KEY (`userid`) REFERENCES `user` (`email`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+
+//credentials
+
+CREATE TABLE `credentials` (
+  `userid` varchar(50) NOT NULL,
+  `hashcode` varchar(200) NOT NULL,
+  `apikey` varchar(200) NOT NULL,
+  `validdate` datetime NOT NULL,
+  PRIMARY KEY (`userid`),
+  UNIQUE KEY `userid_UNIQUE` (`userid`),
+  UNIQUE KEY `apikey_UNIQUE` (`apikey`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
