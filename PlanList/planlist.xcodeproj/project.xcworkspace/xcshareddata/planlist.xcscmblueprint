@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0" : 0,
+    "03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4E61ECAE-75F6-4162-8BF1-5BEC3A4F1174",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0" : "Objective-C\/",
+    "03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E" : "Projects"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "planlist",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PlanList\/planlist.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DiligentTony\/Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/63a16d97ea4816a7f854483da5031469\/Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0"
+    }
+  ]
+}
