@@ -43,8 +43,7 @@ In the real app:
 	
 
 
-
-### Scroll to specific row---> scrollToRowAtIndexPath
+## Scroll to specific row---> scrollToRowAtIndexPath
  
 
             [banner setText:[[LocaleHelper getLocalizedStringWithKey:STR_KEY_text_tap_to_check_products] uppercaseString]];
