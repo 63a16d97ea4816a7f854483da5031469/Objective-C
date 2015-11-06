@@ -84,7 +84,29 @@ Check the definition of this function:
 
 
 
+## WebView:
 
+Using external web browse to open URL:
+
+    NSURL* url = [NSURL URLWithString:@yourOwnWebpageURL];
+    [[UIApplication sharedApplication] openURL:url];
+
+
+Using internal web browse to load URL:
+
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+
+            [NSHTTPCookieStorage sharedHTTPCookieStorage].cookieAcceptPolicy = NSHTTPCookieAcceptPolicyAlways;
+            NSURL* url = [[NSURL alloc] initWithString:@yourOwnURL];
+            NSMutableURLRequest* request;
+            request = [[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringLocalCacheData timeoutInterval:60];
+            [request setValue:[[LocaleHelper getCurrentLocaleForServiceCalls] localeIdentifier] forHTTPHeaderField:@"Accept-language"];
+            [[self webView] loadRequest:request];
+
+Using internal web browse to load html source and display it:
+
+		UIWebView *webview = [[self webView] initWithFrame:self.view.frame];
+		[webview loadHTMLString:@htmlSourceCodeStr baseURL:nil];
 
 
 
