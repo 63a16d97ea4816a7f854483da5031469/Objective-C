@@ -7,18 +7,24 @@ This is a simple app for myself to manage daily tasks I need to finish. I used a
 
 UI screenshots:
 
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3265.jpg)
+<img src="./Screenshots/IMG_3265.jpg">
+ 
+<img src="./Screenshots/IMG_3266.jpg">
 
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3266.jpg)
 
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3267.jpg)
+<img src="./Screenshots/IMG_3267.jpg">
+ 
+<img src="./Screenshots/IMG_3268.jpg">
+ 
 
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3268.jpg)
+<img src="./Screenshots/IMG_3269.jpg">
+ 
+<img src="./Screenshots/IMG_3271.jpg">
 
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3269.jpg)
 
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3271.jpg)
-
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3272.jpg)
-
-![drawing](https://github.com/DiligentTony/Projects/blob/master/PlanList/Screenshots/IMG_3263.jpg)
+<img src="./Screenshots/IMG_3272.jpg">
+ 
+<img src="./Screenshots/IMG_3263.jpg">
+ 
+ 
+ 
