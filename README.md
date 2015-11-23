@@ -52,9 +52,9 @@ http://www.tutorialspoint.com/objective_c/
 24. Gesture Detection
 
 
-Extra issues:
+Others:
 1. IOS 9 issues --> black areas and SSL connection issue
-2. Command Line to checkout specific revision
+2. Command Line to checkout specific revision / branch/tag for release
 
 
 
