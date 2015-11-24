@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomTableCell.h
 //  TableViewPractice
 //
 //  Created by Cao Lei on 24/11/15.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
+@interface CustomTableCell:UITableViewCell
+
+@property (strong, nonatomic) IBOutlet UILabel *titleLabel;
 
 
 @end

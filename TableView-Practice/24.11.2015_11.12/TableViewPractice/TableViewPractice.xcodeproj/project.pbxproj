@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF6B82341C041103004D45DC /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EF6B82331C041103004D45DC /* CustomTableCell.m */; };
 		EF945FDE1C040D1900EC3BD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF945FDD1C040D1900EC3BD3 /* main.m */; };
 		EF945FE11C040D1900EC3BD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF945FE01C040D1900EC3BD3 /* AppDelegate.m */; };
 		EF945FE41C040D1900EC3BD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF945FE31C040D1900EC3BD3 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF6B82331C041103004D45DC /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		EF6B82351C041110004D45DC /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
 		EF945FD81C040D1900EC3BD3 /* TableViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF945FDC1C040D1900EC3BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF945FDD1C040D1900EC3BD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +84,8 @@
 		EF945FDA1C040D1900EC3BD3 /* TableViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				EF6B82331C041103004D45DC /* CustomTableCell.m */,
+				EF6B82351C041110004D45DC /* CustomTableCell.h */,
 				EF945FDF1C040D1900EC3BD3 /* AppDelegate.h */,
 				EF945FE01C040D1900EC3BD3 /* AppDelegate.m */,
 				EF945FE21C040D1900EC3BD3 /* ViewController.h */,
@@ -222,6 +227,7 @@
 				EF945FE41C040D1900EC3BD3 /* ViewController.m in Sources */,
 				EF945FE11C040D1900EC3BD3 /* AppDelegate.m in Sources */,
 				EF945FDE1C040D1900EC3BD3 /* main.m in Sources */,
+				EF6B82341C041103004D45DC /* CustomTableCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +424,7 @@
 				EF945FFD1C040D1A00EC3BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF945FFE1C040D1A00EC3BD3 /* Build configuration list for PBXNativeTarget "TableViewPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				EF9460001C040D1A00EC3BD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
