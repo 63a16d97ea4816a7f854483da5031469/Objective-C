@@ -66,7 +66,7 @@ In the real app:
             [title setFrame:rect];
         }
 
-\#define ITEMS_SECTION    (1)
+	#define ITEMS_SECTION    (1)
 
 	- (void)scrollToproductsSection:(UITapGestureRecognizer *)recognizer
 	{
@@ -94,7 +94,7 @@ Using external web browse to open URL:
 
 Using internal web browse to load URL:
 
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
+	@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
             [NSHTTPCookieStorage sharedHTTPCookieStorage].cookieAcceptPolicy = NSHTTPCookieAcceptPolicyAlways;
             NSURL* url = [[NSURL alloc] initWithString:@yourOwnURL];
