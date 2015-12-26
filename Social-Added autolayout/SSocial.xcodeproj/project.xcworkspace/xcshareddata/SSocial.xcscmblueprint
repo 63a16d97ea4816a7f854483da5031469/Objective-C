@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0" : 0,
+    "03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "388EE81B-4B86-42EB-8888-E47B9DCDC14F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0" : "Objective-C\/",
+    "03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E" : "Projects"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SSocial",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Social-Added autolayout\/SSocial.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DiligentTony\/Projects.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/63a16d97ea4816a7f854483da5031469\/Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0"
+    }
+  ]
+}

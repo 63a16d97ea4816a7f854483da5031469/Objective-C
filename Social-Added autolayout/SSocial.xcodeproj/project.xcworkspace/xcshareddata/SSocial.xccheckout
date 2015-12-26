@@ -7,34 +7,34 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>388EE81B-4B86-42EB-8888-E47B9DCDC14F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SSocial</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E</key>
-		<string>https://github.com/DiligentTony/Projects.git</string>
+		<key>8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0</key>
+		<string>https://github.com/63a16d97ea4816a7f854483da5031469/Objective-C.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Social-Added autolayout/SSocial.xcodeproj</string>
+	<string>Social-Added autolayout/SSocial.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E</key>
+		<key>8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/DiligentTony/Projects.git</string>
+	<string>https://github.com/63a16d97ea4816a7f854483da5031469/Objective-C.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E</string>
+	<string>8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>03F10E2F2D22C6E89C5A936985D5A6A3AF687B4E</string>
+			<string>8CA38D217FB2BAD506E9F553361F3BEA4FD5D4F0</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Projects</string>
+			<string>Objective-C</string>
 		</dict>
 	</array>
 </dict>
