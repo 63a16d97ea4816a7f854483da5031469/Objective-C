@@ -1,0 +1,14 @@
+PODS:
+  - JVFloatingDrawer (0.1.0)
+
+DEPENDENCIES:
+  - JVFloatingDrawer (from `../`)
+
+EXTERNAL SOURCES:
+  JVFloatingDrawer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JVFloatingDrawer: d82745ddb523ca303c5eab6c7b2e2e8d8da5c656
+
+COCOAPODS: 0.35.0
