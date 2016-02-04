@@ -20,14 +20,6 @@ int i=0;
 
 - (void)setupLocalNotifications {
     
-    NSLog(@"%@",[[[UIDevice currentDevice] identifierForVendor] UUIDString]);
-    
-    NSUUID *tempUUID = [[UIDevice currentDevice] identifierForVendor];
-    NSString *stringForUDID =  [tempUUID UUIDString];
-    NSCharacterSet *notAllowedChars = [[NSCharacterSet characterSetWithCharactersInString:@"1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"] invertedSet];
-    NSString *resultString = [[stringForUDID componentsSeparatedByCharactersInSet:notAllowedChars] componentsJoinedByString:@""];
-    NSLog(@"Final string %@", resultString);
-    
     //remove all the notifications created by this app
     //[[UIApplication sharedApplication] cancelAllLocalNotifications];
     UILocalNotification *localNotification = [[UILocalNotification alloc] init];
