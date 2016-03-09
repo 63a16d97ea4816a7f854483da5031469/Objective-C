@@ -8,23 +8,47 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIWebViewDelegate>
 
-@property (weak, nonatomic) IBOutlet UIWebView *webViewController;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 
 @implementation ViewController
+NSTimer * timer;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSString *urlString = @"http://www.google.com";
+    self.webView.delegate=self;
+    
+    NSString *urlString = @"http://www.g.com";
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
-    [self.webViewController loadRequest:urlRequest];
+    [self.webView loadRequest:urlRequest];
     
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+    NSLog(@"begin loading");
+    timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timeout:) userInfo:nil repeats:NO];
+}
+
+-(void)timeout:(id)sender{
+    NSLog(@"the connection time out!");
+}
+
+
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    [timer invalidate];
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(nullable NSError *)error{
+    //Error 999 fire when stopLoading
+        NSLog(@"the error:%@",error);
+    [timer invalidate];//invalidate for other errors, not time out.
 }
 
 - (void)didReceiveMemoryWarning {
