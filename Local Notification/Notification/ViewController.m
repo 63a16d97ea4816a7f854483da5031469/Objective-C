@@ -26,7 +26,7 @@ int i=0;
     
     // current time plus 10 secs
     NSDate *now = [NSDate date];
-    NSDate *dateToFire = [now dateByAddingTimeInterval:5];
+    NSDate *dateToFire = [now dateByAddingTimeInterval:10];
     
     NSLog(@"now time: %@", now);
     NSLog(@"fire time: %@", dateToFire);
