@@ -1,0 +1,13 @@
+PODS:
+  - DFJPEGTurbo (0.2.1)
+  - OpenCV (3.0.0)
+
+DEPENDENCIES:
+  - DFJPEGTurbo
+  - OpenCV
+
+SPEC CHECKSUMS:
+  DFJPEGTurbo: 75de1669b9c0dc8fe94c61f9e8ea6e097672bf94
+  OpenCV: be07c02f0d8f125f1d40d261e66a66cb66ece3b3
+
+COCOAPODS: 0.39.0

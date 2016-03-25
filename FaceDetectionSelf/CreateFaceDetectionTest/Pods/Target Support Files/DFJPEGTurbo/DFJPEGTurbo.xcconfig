@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/DFJPEGTurbo" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DFJPEGTurbo" "${PODS_ROOT}/Headers/Public/OpenCV"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DFJPEGTurbo/DFJPEGTurbo/libturbojpeg"
+OTHER_LDFLAGS = -l"turbojpeg"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
