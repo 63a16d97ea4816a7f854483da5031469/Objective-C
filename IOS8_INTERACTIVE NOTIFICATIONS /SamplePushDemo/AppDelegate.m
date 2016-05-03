@@ -18,6 +18,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    UIAlertView *alert = [[UIAlertView alloc]
+                          initWithTitle:@"Refresh"
+                          message:@"Are you want to Refresh Data"
+                          delegate:self
+                          cancelButtonTitle:nil
+                          otherButtonTitles:@"OK", @"Done",@"cancel", nil];
+    [alert show];
+    
+    
     UIMutableUserNotificationAction* declineAction = [[UIMutableUserNotificationAction alloc] init];
     [declineAction setIdentifier:@"decline_action_id"];
     [declineAction setTitle:@"Decline"];
@@ -45,6 +54,29 @@
     [[UIApplication sharedApplication] scheduleLocalNotification:notification];
     
     return YES;
+}
+
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+        //
+        NSLog(@"%ld",(long)buttonIndex);
+    }
+    else if (buttonIndex == 1) {
+        //
+        NSLog(@"%ld",(long)buttonIndex);
+
+    }
+    else if (buttonIndex == 2) {
+        //
+        NSLog(@"%ld",(long)buttonIndex);
+
+    }
+    else if (buttonIndex == 3) {
+        //
+        NSLog(@"%ld",(long)buttonIndex);
+
+    }
 }
 - (void)application:(UIApplication *)application handleActionWithIdentifier:(NSString *)identifier forLocalNotification:(UILocalNotification *)notification completionHandler:(void(^)())completionHandler
 {
