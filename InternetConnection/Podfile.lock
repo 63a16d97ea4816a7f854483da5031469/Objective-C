@@ -1,0 +1,10 @@
+PODS:
+  - RealReachability (1.1.5)
+
+DEPENDENCIES:
+  - RealReachability (~> 1.1.5)
+
+SPEC CHECKSUMS:
+  RealReachability: 42781d33adbc61ffb93a8235dcd9919bc1db92ab
+
+COCOAPODS: 0.39.0
