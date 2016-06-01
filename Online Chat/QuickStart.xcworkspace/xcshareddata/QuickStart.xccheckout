@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A528469-A489-4E36-9231-8D6782F72621</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuickStart</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A552180A8C75CB449AF7588C95F9165957D2F7D</key>
+		<string>https://github.com/layerhq/quick-start-ios.git</string>
+		<key>AFF3E307E09A169997E9D4FE29382ADD94810906</key>
+		<string>https://github.com/maju6406/QuickStart.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QuickStart.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A552180A8C75CB449AF7588C95F9165957D2F7D</key>
+		<string>..</string>
+		<key>AFF3E307E09A169997E9D4FE29382ADD94810906</key>
+		<string>../../QuickStart</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/layerhq/quick-start-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A552180A8C75CB449AF7588C95F9165957D2F7D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A552180A8C75CB449AF7588C95F9165957D2F7D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>quick-start-ios</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AFF3E307E09A169997E9D4FE29382ADD94810906</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuickStart</string>
+		</dict>
+	</array>
+</dict>
+</plist>

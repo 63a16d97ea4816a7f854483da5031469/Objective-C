@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4A552180A8C75CB449AF7588C95F9165957D2F7D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A552180A8C75CB449AF7588C95F9165957D2F7D" : 0,
+    "AFF3E307E09A169997E9D4FE29382ADD94810906" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0A528469-A489-4E36-9231-8D6782F72621",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A552180A8C75CB449AF7588C95F9165957D2F7D" : "quick-start-ios",
+    "AFF3E307E09A169997E9D4FE29382ADD94810906" : "QuickStart"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "QuickStart",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "QuickStart.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/layerhq\/quick-start-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A552180A8C75CB449AF7588C95F9165957D2F7D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maju6406\/QuickStart.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AFF3E307E09A169997E9D4FE29382ADD94810906"
+    }
+  ]
+}
