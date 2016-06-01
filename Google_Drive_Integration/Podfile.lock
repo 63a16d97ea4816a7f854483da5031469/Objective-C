@@ -13,7 +13,7 @@ PODS:
     - GTMSessionFetcher/Core (= 1.1.3)
 
 DEPENDENCIES:
-  - GoogleAPIClient/Drive (~> 1.0.2)
+  - GoogleAPIClient/Drive (~> 1.0)
   - GTMOAuth2 (~> 1.1.0)
 
 SPEC CHECKSUMS:

@@ -14,6 +14,7 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic, strong) GTLServiceDrive *service;
+@property (nonatomic,strong) GTLDriveFile *file;
 @property (nonatomic, strong) UITextView *output;
 
 @end

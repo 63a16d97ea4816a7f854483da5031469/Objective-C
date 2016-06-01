@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C9CF48288E80153C4D706050'
+               BlueprintIdentifier = '407D93CF2C033F54E5D00D09'
                BlueprintName = 'GTMSessionFetcher'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGTMSessionFetcher.a'>

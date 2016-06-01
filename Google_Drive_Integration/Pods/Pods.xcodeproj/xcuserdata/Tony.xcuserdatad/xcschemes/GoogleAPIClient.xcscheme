@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '88E3B7C0F27D05118F035220'
+               BlueprintIdentifier = 'D9FFAE3E3482A9DE8294BA46'
                BlueprintName = 'GoogleAPIClient'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGoogleAPIClient.a'>
