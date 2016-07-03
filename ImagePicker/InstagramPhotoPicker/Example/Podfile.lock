@@ -1,0 +1,14 @@
+PODS:
+  - TWPhotoPicker (1.0.0)
+
+DEPENDENCIES:
+  - TWPhotoPicker (from `../`)
+
+EXTERNAL SOURCES:
+  TWPhotoPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TWPhotoPicker: 599463edf3de705a1c9ba36aad40a09c0e1f1860
+
+COCOAPODS: 0.39.0
