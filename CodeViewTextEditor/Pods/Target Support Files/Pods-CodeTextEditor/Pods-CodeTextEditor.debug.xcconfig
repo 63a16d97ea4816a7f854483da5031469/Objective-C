@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/WEPopover" "${PODS_ROOT}/Headers/Public/iOS-Rich-Text-Editor"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/WEPopover" -isystem "${PODS_ROOT}/Headers/Public/iOS-Rich-Text-Editor"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"WEPopover" -l"iOS-Rich-Text-Editor" -framework "Foundation" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods
