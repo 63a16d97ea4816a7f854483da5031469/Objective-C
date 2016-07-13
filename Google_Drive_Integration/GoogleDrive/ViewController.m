@@ -129,7 +129,7 @@ static NSString *const kClientID = @"API KEY";
 
 -(void)loadFileContent:(GTLDriveFile *) DriveFile{
     
-    NSString *url = [NSString stringWithFormat:@"https://www.googleapis.com/drive/v3/files/%@?alt=media&mimeType=text/plain",
+    NSString *url = [NSString stringWithFormat:@"https://www.googleapis.com/drive/v3/files/%@?alt=media&mimeType=text/plain&key=AIzaSyCQ4KLEkar21MMzOc1H9GvJNpXlNQs3UD0",
                      DriveFile.identifier];
     NSLog(@"load file content:%@",DriveFile);
     GTMSessionFetcher *fetcher =
