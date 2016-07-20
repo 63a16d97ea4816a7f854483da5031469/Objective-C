@@ -1,0 +1,890 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0543155408F85A2403B6FEAE17133D0C /* Pods-CodeViewPopTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA571A0F46751A1557405EB13834126A /* Pods-CodeViewPopTest-dummy.m */; };
+		08957F08140CC22A3A162349DCFCE7DD /* NSAttributedString+RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6051C638DDF212F064CF2B021D6252 /* NSAttributedString+RichTextEditor.m */; };
+		08B516695B1C1989225030F2C1734A76 /* UIFont+RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = ED828AC8A0F58E687B9672974728F1D0 /* UIFont+RichTextEditor.m */; };
+		09233FE7C35311AAC517DA2DA3AA012C /* UIView+RichTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 3431C11D964C310B73C9AF03D56E6A6C /* UIView+RichTextEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D2A21B7C386C2CB1828C1D4FD5CE4C7 /* WEPopoverContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = A29B783E1C157C796ED03AAF94F06BAB /* WEPopoverContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12096201362FC6BC0395D6FD9892BB5D /* RichTextEditorFontSizePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AA57CC570FE1AF04042A68A7B8F24D4F /* RichTextEditorFontSizePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17EB1C1DA7121657743E1BDD9C9A9647 /* RichTextEditorFontSizePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DFAB0302A02DDF57B146C952C109B00D /* RichTextEditorFontSizePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		191EDC39E845D47D9E90E02614EEDF50 /* WETouchableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 157B1F92C7C98F66F26F16F22DA64C50 /* WETouchableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DA1172FDCE3F79AF2B702230171DCC1 /* RichTextEditorLinkPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9494F068460A0C2CD5755C8A05FE8F7F /* RichTextEditorLinkPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		290A761A65379546CFB25DEE43F0FD1B /* RichTextEditorColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A76231E535D745F961770DC9C653299 /* RichTextEditorColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4B4DFCBC592312516618947ED0AC22 /* RichTextEditorPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DD8AD1A8D9DB692BE4BC2A5B510DF6C /* RichTextEditorPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39D1332FCFD2748E2140295649051867 /* UIView+RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EDCD1972FA5FCAB1843CBF8771BD7F0 /* UIView+RichTextEditor.m */; };
+		3C096C8DD0C6015D292D12A2E6EA217F /* UIBarButtonItem+WEPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E401D8CB2102C59CD1BA27B6BDD981 /* UIBarButtonItem+WEPopover.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D00B0AC538FDB98AA4D7C4FBFFDD4E /* RichTextEditorToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = AFD0D0F306A79A60D8AD7898DC9F8D46 /* RichTextEditorToggleButton.m */; };
+		5415ABBB5220741E89FB97EC94A324C6 /* RichTextEditorFontPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30081606F5799EE940A6E41F92A5DF9B /* RichTextEditorFontPickerViewController.m */; };
+		57603090D8A5D1AD8436CF49D5DC8E58 /* RichTextEditorToggleButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F2F81A8AC4CA6F4A18C7178E702A59 /* RichTextEditorToggleButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64579BC9B881367C00EFFB1F4132FEEC /* RichTextEditorFontPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5300BF4A729B11561BA496C7962AC6 /* RichTextEditorFontPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70AAC1B76DE8C84A918A7B3BB1C39DAE /* UIBarButtonItem+WEPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEAF2E587BDBE74C88313B062A4AA8C /* UIBarButtonItem+WEPopover.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		70D7B46221D1D06BA98FEC24A825CF1C /* RichTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = D185A8610B72689778ABBC62AF9C05C7 /* RichTextEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CBF3F9BD599AA4B678AF863D8015C04 /* WEPopoverController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9CD28F2BCE7F6842DFACBD61CA33C8 /* WEPopoverController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E9E913A814CC16CC8B0E0509DA6716D /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D34B577605E13B5AE7FF76400D3E9F /* WEPopoverContainerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		901E251EFEF498B434E9F9F31410938F /* WEPopover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D160006FFCA90D72391EE6D994CB4C3 /* WEPopover-dummy.m */; };
+		92019AF170104EA4737031076E6C15FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		952BDE20A73FBB5CE52CA7B7E9953404 /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F3C8DB1CE1880D1068C603CC4FE3FB /* WEPopoverController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9587147552AF68A2C6C7A5500B722D37 /* WETouchableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EDB200555CAD974A1D7900927DA33E7 /* WETouchableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		977347A68FFC26811534128B3E418033 /* NSAttributedString+RichTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 22CD2373CDD1A620177F9F4A4301756B /* NSAttributedString+RichTextEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		991CA9F3FC24B159E775BC304514E67F /* RichTextEditorFontPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C46E55B5DE8C94A173DBBD669A4B91DC /* RichTextEditorFontPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D0977C6CA28ED29CBB2C5408E10E97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		9AD7D3E372B8922EEA869153D307CEBF /* RichTextEditorColorPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 224445DF6F9C453D2B74C274150D2806 /* RichTextEditorColorPickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9ABC220AB93F9D9BD8F8832FB3AAB0B /* RichTextEditorLinkPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5093A1FC2E950629D6EFC46BE56834A /* RichTextEditorLinkPickerViewController.m */; };
+		B226F69F47BA2B4A3BADCDFFA550ED9B /* UIFont+RichTextEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 647A008DB607C77C9240502BC819BC08 /* UIFont+RichTextEditor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B69A0FAE28523D5B8F4B20C7294F366A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		B8D499C0904B425CC9E301D99EDA12D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		BA8C786495C53332A6081B8687D9CCE5 /* iOS-Rich-Text-Editor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D197A1D626734AC88320195B8498C301 /* iOS-Rich-Text-Editor-dummy.m */; };
+		C5C3F833E1582BDC2D58FFAFFA802732 /* RichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E9F70C8EA8FF087BBBD9F98C661268 /* RichTextEditor.m */; };
+		D04BA5C948C8D28163EA733CE5224C90 /* RichTextEditorFontSizePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4483C448A61F89BB331A165CC9DF2DD8 /* RichTextEditorFontSizePickerViewController.m */; };
+		D7D2BE8C756DED58519161843A3FCA16 /* RichTextEditorToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = B8CC7460619EECA07B58F8364BE3EE1A /* RichTextEditorToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D83BF9D9F89A06379A3F5D6B6DCCDA0D /* RichTextEditorColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F21A5AE109FF43A244A60DCCF59E536 /* RichTextEditorColorPickerViewController.m */; };
+		E2511C8A73EC557C2A7A499C72023A00 /* WEPopoverParentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F0A83B75C506546470D7067FFA9DD1 /* WEPopoverParentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEBCD2DB9C23F77C4A67A09C0C1E6887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		FF50AEB3F7A786135E45A96264DE6A80 /* RichTextEditorToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB4B320979ECBE5A437778ED67E6F28 /* RichTextEditorToolbar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C7AC5640002E499F914F40F1B6E455C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92C6BAD28546EC61B661C604CEBE9001;
+			remoteInfo = "iOS-Rich-Text-Editor";
+		};
+		5424CC302C4EC610A5AC13CD1F267DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39775BD99EC9F4D7ECFDAFB8474BA088;
+			remoteInfo = WEPopover;
+		};
+		919341AD669765250B2E6E00C976BEDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39775BD99EC9F4D7ECFDAFB8474BA088;
+			remoteInfo = WEPopover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0163E0883D9873A548845165FA11B6E2 /* bullist.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bullist.png; path = RichTextEditor/Source/Assets/bullist.png; sourceTree = "<group>"; };
+		07CB4498CBBB6EA5A3ABE6FAF433BBF9 /* justifyleft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = justifyleft.png; path = RichTextEditor/Source/Assets/justifyleft.png; sourceTree = "<group>"; };
+		085F12A95A1A7D010FE2A098E82925F1 /* numlist@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "numlist@2x.png"; path = "RichTextEditor/Source/Assets/numlist@2x.png"; sourceTree = "<group>"; };
+		0CBEE1FAD0DF8A6AC42B2D9DF657F39A /* button.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = button.png; path = RichTextEditor/Source/Assets/buttons/button.png; sourceTree = "<group>"; };
+		0EA1B652E699CFD24237218A649337FC /* justifyright.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = justifyright.png; path = RichTextEditor/Source/Assets/justifyright.png; sourceTree = "<group>"; };
+		10BF6BCEBF003826F995A4FA7EDC8FF2 /* popoverArrowLeft-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowLeft-white@2x.png"; path = "Resources/Popover/popoverArrowLeft-white@2x.png"; sourceTree = "<group>"; };
+		14A0F1774704F1B7944AF4261D57928D /* iOS-Rich-Text-Editor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iOS-Rich-Text-Editor.xcconfig"; sourceTree = "<group>"; };
+		157B1F92C7C98F66F26F16F22DA64C50 /* WETouchableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WETouchableView.h; path = Classes/Popover/WETouchableView.h; sourceTree = "<group>"; };
+		1CDDCD85EB4309032CF231C419E6BE94 /* buttoncenter.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttoncenter.png; path = RichTextEditor/Source/Assets/buttons/buttoncenter.png; sourceTree = "<group>"; };
+		1E38DD875B8CE62A5679913B781AA347 /* italic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = italic.png; path = RichTextEditor/Source/Assets/italic.png; sourceTree = "<group>"; };
+		1EDB200555CAD974A1D7900927DA33E7 /* WETouchableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WETouchableView.m; path = Classes/Popover/WETouchableView.m; sourceTree = "<group>"; };
+		1F5300BF4A729B11561BA496C7962AC6 /* RichTextEditorFontPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorFontPickerViewController.h; path = RichTextEditor/Source/RichTextEditorFontPickerViewController.h; sourceTree = "<group>"; };
+		224445DF6F9C453D2B74C274150D2806 /* RichTextEditorColorPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorColorPickerViewController.h; path = RichTextEditor/Source/RichTextEditorColorPickerViewController.h; sourceTree = "<group>"; };
+		22CD2373CDD1A620177F9F4A4301756B /* NSAttributedString+RichTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+RichTextEditor.h"; path = "RichTextEditor/Source/Categories/NSAttributedString+RichTextEditor.h"; sourceTree = "<group>"; };
+		24BB4907A707ECAEDC93D27D93912DB4 /* Pods-CodeViewPopTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeViewPopTest.debug.xcconfig"; sourceTree = "<group>"; };
+		24FAC0639F751930062457B314A2F20D /* bold.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = bold.png; path = RichTextEditor/Source/Assets/bold.png; sourceTree = "<group>"; };
+		2551BC0F9DE4F5D6FCE35D301BCAF116 /* buttonleftSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonleftSelected.png; path = RichTextEditor/Source/Assets/buttons/buttonleftSelected.png; sourceTree = "<group>"; };
+		266E01C8FE54EBA2C3D7481DCD81205E /* numlist.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = numlist.png; path = RichTextEditor/Source/Assets/numlist.png; sourceTree = "<group>"; };
+		27416B6CC4B136360D1071716462B9A2 /* outdent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "outdent@2x.png"; path = "RichTextEditor/Source/Assets/outdent@2x.png"; sourceTree = "<group>"; };
+		27F2F81A8AC4CA6F4A18C7178E702A59 /* RichTextEditorToggleButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorToggleButton.h; path = RichTextEditor/Source/RichTextEditorToggleButton.h; sourceTree = "<group>"; };
+		2DF61C338416F4D01636158DA7888C83 /* justifyfull.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = justifyfull.png; path = RichTextEditor/Source/Assets/justifyfull.png; sourceTree = "<group>"; };
+		30081606F5799EE940A6E41F92A5DF9B /* RichTextEditorFontPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditorFontPickerViewController.m; path = RichTextEditor/Source/RichTextEditorFontPickerViewController.m; sourceTree = "<group>"; };
+		3431C11D964C310B73C9AF03D56E6A6C /* UIView+RichTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RichTextEditor.h"; path = "RichTextEditor/Source/Categories/UIView+RichTextEditor.h"; sourceTree = "<group>"; };
+		39545A03C8ABD34350A94CEEE633C5B5 /* Pods-CodeViewPopTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CodeViewPopTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		39952D5F9573D962C345C28BB5837975 /* underline.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = underline.png; path = RichTextEditor/Source/Assets/underline.png; sourceTree = "<group>"; };
+		3A76231E535D745F961770DC9C653299 /* RichTextEditorColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorColorPicker.h; path = RichTextEditor/Source/RichTextEditorColorPicker.h; sourceTree = "<group>"; };
+		3BD74DE9DFADFED55742F634B7FCB402 /* unlink.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = unlink.png; path = RichTextEditor/Source/Assets/unlink.png; sourceTree = "<group>"; };
+		3E94E9B82A7C834D0BD43E0343C08540 /* popoverArrowUpSimple.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowUpSimple.png; path = Resources/Popover/popoverArrowUpSimple.png; sourceTree = "<group>"; };
+		3F6051C638DDF212F064CF2B021D6252 /* NSAttributedString+RichTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+RichTextEditor.m"; path = "RichTextEditor/Source/Categories/NSAttributedString+RichTextEditor.m"; sourceTree = "<group>"; };
+		4483C448A61F89BB331A165CC9DF2DD8 /* RichTextEditorFontSizePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditorFontSizePickerViewController.m; path = RichTextEditor/Source/RichTextEditorFontSizePickerViewController.m; sourceTree = "<group>"; };
+		44ED1A7ACD6960241C44A6DF38D0C206 /* buttoncenterSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttoncenterSelected.png; path = RichTextEditor/Source/Assets/buttons/buttoncenterSelected.png; sourceTree = "<group>"; };
+		46870A545E8796A225C2AD0972547441 /* popoverArrowLeft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowLeft.png; path = Resources/Popover/popoverArrowLeft.png; sourceTree = "<group>"; };
+		46F0A83B75C506546470D7067FFA9DD1 /* WEPopoverParentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WEPopoverParentView.h; path = Classes/Popover/WEPopoverParentView.h; sourceTree = "<group>"; };
+		4777285E96687C97AA48084D455D3631 /* justifycenter.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = justifycenter.png; path = RichTextEditor/Source/Assets/justifycenter.png; sourceTree = "<group>"; };
+		4CB4B320979ECBE5A437778ED67E6F28 /* RichTextEditorToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditorToolbar.m; path = RichTextEditor/Source/RichTextEditorToolbar.m; sourceTree = "<group>"; };
+		4CD08FC1EF58950498CA90D3EA84CAFB /* popoverBg-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverBg-white@2x.png"; path = "Resources/Popover/popoverBg-white@2x.png"; sourceTree = "<group>"; };
+		4D9CD28F2BCE7F6842DFACBD61CA33C8 /* WEPopoverController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WEPopoverController.h; path = Classes/Popover/WEPopoverController.h; sourceTree = "<group>"; };
+		4E2CB198B4A7EFCB913353B45318E960 /* underline@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "underline@2x.png"; path = "RichTextEditor/Source/Assets/underline@2x.png"; sourceTree = "<group>"; };
+		5110BF9920E408C179C5A3F1C030B2D6 /* justifyright@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "justifyright@2x.png"; path = "RichTextEditor/Source/Assets/justifyright@2x.png"; sourceTree = "<group>"; };
+		52F5900F38637CE93E46D23BFC072E71 /* libPods-CodeViewPopTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeViewPopTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF3267EC0DC0498AF8DDB41EDB565F5 /* popoverArrowRightSimple.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowRightSimple.png; path = Resources/Popover/popoverArrowRightSimple.png; sourceTree = "<group>"; };
+		5C1C6974C31A64587B48B5929D83F822 /* buttonSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonSelected.png; path = RichTextEditor/Source/Assets/buttons/buttonSelected.png; sourceTree = "<group>"; };
+		5C91E1FE07D64D474E71B549344AE46F /* popoverArrowDown.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowDown.png; path = Resources/Popover/popoverArrowDown.png; sourceTree = "<group>"; };
+		60C666250611B6903FEEAE424CE879DB /* forecolor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = forecolor.png; path = RichTextEditor/Source/Assets/forecolor.png; sourceTree = "<group>"; };
+		61D467DA761A7E75053727D6BF89C72F /* indent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "indent@2x.png"; path = "RichTextEditor/Source/Assets/indent@2x.png"; sourceTree = "<group>"; };
+		637B75C085016B0F1E7021E1D9C95A25 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowLeft@2x.png"; path = "Resources/Popover/popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		63F7972C9B10DB06B38E59E5158AE24E /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowUp@2x.png"; path = "Resources/Popover/popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		647A008DB607C77C9240502BC819BC08 /* UIFont+RichTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+RichTextEditor.h"; path = "RichTextEditor/Source/Categories/UIFont+RichTextEditor.h"; sourceTree = "<group>"; };
+		6662437CC92250F56079A37731215C22 /* buttons */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = buttons; path = RichTextEditor/Source/Assets/buttons; sourceTree = "<group>"; };
+		673931E339007665E7164123F1588597 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowRight@2x.png"; path = "Resources/Popover/popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		6B016D046E32C105A6703B373E6817FE /* redo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = redo.png; path = RichTextEditor/Source/Assets/redo.png; sourceTree = "<group>"; };
+		6B53131CC3619EB12DA8112E24740A7F /* popoverArrowRight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowRight.png; path = Resources/Popover/popoverArrowRight.png; sourceTree = "<group>"; };
+		6D160006FFCA90D72391EE6D994CB4C3 /* WEPopover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WEPopover-dummy.m"; sourceTree = "<group>"; };
+		6EDCD1972FA5FCAB1843CBF8771BD7F0 /* UIView+RichTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RichTextEditor.m"; path = "RichTextEditor/Source/Categories/UIView+RichTextEditor.m"; sourceTree = "<group>"; };
+		6F21A5AE109FF43A244A60DCCF59E536 /* RichTextEditorColorPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditorColorPickerViewController.m; path = RichTextEditor/Source/RichTextEditorColorPickerViewController.m; sourceTree = "<group>"; };
+		71D34B577605E13B5AE7FF76400D3E9F /* WEPopoverContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WEPopoverContainerView.m; path = Classes/Popover/WEPopoverContainerView.m; sourceTree = "<group>"; };
+		74E401D8CB2102C59CD1BA27B6BDD981 /* UIBarButtonItem+WEPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+WEPopover.h"; path = "Classes/Popover/UIBarButtonItem+WEPopover.h"; sourceTree = "<group>"; };
+		76BAD7883EE8087D42862B1899EDB951 /* popoverBgSimple.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverBgSimple.png; path = Resources/Popover/popoverBgSimple.png; sourceTree = "<group>"; };
+		76CB224454E6473DA3E3E97C6EED84D3 /* WEPopover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WEPopover-prefix.pch"; sourceTree = "<group>"; };
+		81F695340416BC575B69A1E161BE650C /* popoverBg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverBg.png; path = Resources/Popover/popoverBg.png; sourceTree = "<group>"; };
+		86D499B212B1277FECC9EACCED6DE352 /* justifyleft@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "justifyleft@2x.png"; path = "RichTextEditor/Source/Assets/justifyleft@2x.png"; sourceTree = "<group>"; };
+		8D82F2685722A67600EFCD7710E84174 /* strikethrough.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = strikethrough.png; path = RichTextEditor/Source/Assets/strikethrough.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93BD1FE4286B17F921BC565D600A47C9 /* libWEPopover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWEPopover.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9494F068460A0C2CD5755C8A05FE8F7F /* RichTextEditorLinkPickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorLinkPickerViewController.h; path = RichTextEditor/Source/RichTextEditorLinkPickerViewController.h; sourceTree = "<group>"; };
+		9686005A466BE693F1023C39740446D7 /* dropDownTriangle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = dropDownTriangle.png; path = RichTextEditor/Source/Assets/buttons/dropDownTriangle.png; sourceTree = "<group>"; };
+		9BAD7F8598A33A6C6956FDF913F7C6E4 /* popoverArrowUp.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowUp.png; path = Resources/Popover/popoverArrowUp.png; sourceTree = "<group>"; };
+		9BB3FCCFAC2E64384BA75FA71519CD9F /* colors.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = colors.jpg; path = RichTextEditor/Source/Assets/colors.jpg; sourceTree = "<group>"; };
+		9DD8AD1A8D9DB692BE4BC2A5B510DF6C /* RichTextEditorPopover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorPopover.h; path = RichTextEditor/Source/RichTextEditorPopover.h; sourceTree = "<group>"; };
+		9EB6F6470AD4A1A647C4D19B0C85645A /* justifyfull@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "justifyfull@2x.png"; path = "RichTextEditor/Source/Assets/justifyfull@2x.png"; sourceTree = "<group>"; };
+		A29B783E1C157C796ED03AAF94F06BAB /* WEPopoverContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WEPopoverContainerView.h; path = Classes/Popover/WEPopoverContainerView.h; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A95E86EC5C90B8EC07F7F4DD66D2E5B1 /* iOS-Rich-Text-Editor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOS-Rich-Text-Editor-prefix.pch"; sourceTree = "<group>"; };
+		AA0E51FBFABCA2AA2879BC0E3497141B /* libiOS-Rich-Text-Editor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libiOS-Rich-Text-Editor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA571A0F46751A1557405EB13834126A /* Pods-CodeViewPopTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CodeViewPopTest-dummy.m"; sourceTree = "<group>"; };
+		AA57CC570FE1AF04042A68A7B8F24D4F /* RichTextEditorFontSizePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorFontSizePickerViewController.h; path = RichTextEditor/Source/RichTextEditorFontSizePickerViewController.h; sourceTree = "<group>"; };
+		AFD0D0F306A79A60D8AD7898DC9F8D46 /* RichTextEditorToggleButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditorToggleButton.m; path = RichTextEditor/Source/RichTextEditorToggleButton.m; sourceTree = "<group>"; };
+		B86A35212CFDEFD8E2B3F875E0DC3E7D /* file.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = file.png; path = RichTextEditor/Source/Assets/file.png; sourceTree = "<group>"; };
+		B8CC7460619EECA07B58F8364BE3EE1A /* RichTextEditorToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorToolbar.h; path = RichTextEditor/Source/RichTextEditorToolbar.h; sourceTree = "<group>"; };
+		BFA362A943FE35582BFCDE1EF1C8DB6F /* bold@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bold@2x.png"; path = "RichTextEditor/Source/Assets/bold@2x.png"; sourceTree = "<group>"; };
+		C0C42F212CB2DC13E47197E66963533F /* strikethrough@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "strikethrough@2x.png"; path = "RichTextEditor/Source/Assets/strikethrough@2x.png"; sourceTree = "<group>"; };
+		C3A187334D3C205938015F5BE7058973 /* buttonleft.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonleft.png; path = RichTextEditor/Source/Assets/buttons/buttonleft.png; sourceTree = "<group>"; };
+		C3EC3ED59BC434709CB83471D1DE76FF /* Pods-CodeViewPopTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CodeViewPopTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C46E55B5DE8C94A173DBBD669A4B91DC /* RichTextEditorFontPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorFontPicker.h; path = RichTextEditor/Source/RichTextEditorFontPicker.h; sourceTree = "<group>"; };
+		C684700412D0DA5F1C485E6D683BC383 /* popoverArrowLeftSimple.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowLeftSimple.png; path = Resources/Popover/popoverArrowLeftSimple.png; sourceTree = "<group>"; };
+		C6B5CED4D107ED59C26D922B29D4D7AB /* outdent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = outdent.png; path = RichTextEditor/Source/Assets/outdent.png; sourceTree = "<group>"; };
+		C702762E88380913FDFF97FC1FF97BD9 /* Pods-CodeViewPopTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeViewPopTest-frameworks.sh"; sourceTree = "<group>"; };
+		CD835FFB890045EB51459F69416CFE61 /* firstLineIndent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = firstLineIndent.png; path = RichTextEditor/Source/Assets/firstLineIndent.png; sourceTree = "<group>"; };
+		CE36878331048935C122C01CF29BAFFC /* WEPopover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WEPopover.xcconfig; sourceTree = "<group>"; };
+		CF9A4F23AF273BA5F2CB7E41ADD5007A /* popoverArrowRight-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowRight-white@2x.png"; path = "Resources/Popover/popoverArrowRight-white@2x.png"; sourceTree = "<group>"; };
+		D1284457274FA31CB9F235D007AE2EC7 /* link.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = link.png; path = RichTextEditor/Source/Assets/link.png; sourceTree = "<group>"; };
+		D185A8610B72689778ABBC62AF9C05C7 /* RichTextEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditor.h; path = RichTextEditor/Source/RichTextEditor.h; sourceTree = "<group>"; };
+		D197A1D626734AC88320195B8498C301 /* iOS-Rich-Text-Editor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOS-Rich-Text-Editor-dummy.m"; sourceTree = "<group>"; };
+		D1CDFC4A12D90CDECF77A1FF319B6F41 /* dropDownTriangle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "dropDownTriangle@2x.png"; path = "RichTextEditor/Source/Assets/buttons/dropDownTriangle@2x.png"; sourceTree = "<group>"; };
+		D1D19269622AB0F00227D8299BE8133D /* code.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = code.png; path = RichTextEditor/Source/Assets/code.png; sourceTree = "<group>"; };
+		D1F3C8DB1CE1880D1068C603CC4FE3FB /* WEPopoverController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WEPopoverController.m; path = Classes/Popover/WEPopoverController.m; sourceTree = "<group>"; };
+		D2A504EB63761770BB90EABB7B3942C4 /* colorsOld.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = colorsOld.jpg; path = RichTextEditor/Source/Assets/colorsOld.jpg; sourceTree = "<group>"; };
+		D5093A1FC2E950629D6EFC46BE56834A /* RichTextEditorLinkPickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditorLinkPickerViewController.m; path = RichTextEditor/Source/RichTextEditorLinkPickerViewController.m; sourceTree = "<group>"; };
+		D95165A0E578A5E4024F624C37D555C4 /* popoverArrowDownSimple.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = popoverArrowDownSimple.png; path = Resources/Popover/popoverArrowDownSimple.png; sourceTree = "<group>"; };
+		D992803C7E768174AB0F572E37ABA716 /* Pods-CodeViewPopTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CodeViewPopTest.release.xcconfig"; sourceTree = "<group>"; };
+		DA10BD3D66E0C32E130AC1D790B5FB2E /* backcolor.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = backcolor.png; path = RichTextEditor/Source/Assets/backcolor.png; sourceTree = "<group>"; };
+		DAABCD2783B497EE7DA13CA0DE74E2B9 /* indent.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = indent.png; path = RichTextEditor/Source/Assets/indent.png; sourceTree = "<group>"; };
+		DAE7EC9F1C5BA50E1FEE01C0C0137067 /* Pods-CodeViewPopTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CodeViewPopTest-resources.sh"; sourceTree = "<group>"; };
+		DB038343763CF49DC693A84352ACC516 /* popoverArrowUp-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowUp-white@2x.png"; path = "Resources/Popover/popoverArrowUp-white@2x.png"; sourceTree = "<group>"; };
+		DC4EF8044CDBD7ECD22A7A3FBC3D25EA /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowDown@2x.png"; path = "Resources/Popover/popoverArrowDown@2x.png"; sourceTree = "<group>"; };
+		DCF2F82FB8E50AA83C7962E1900EBD74 /* buttonright.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonright.png; path = RichTextEditor/Source/Assets/buttons/buttonright.png; sourceTree = "<group>"; };
+		DEB8A16E29F90F10E74EA59B00C29015 /* justifycenter@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "justifycenter@2x.png"; path = "RichTextEditor/Source/Assets/justifycenter@2x.png"; sourceTree = "<group>"; };
+		DFAB0302A02DDF57B146C952C109B00D /* RichTextEditorFontSizePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RichTextEditorFontSizePicker.h; path = RichTextEditor/Source/RichTextEditorFontSizePicker.h; sourceTree = "<group>"; };
+		E3E9F70C8EA8FF087BBBD9F98C661268 /* RichTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RichTextEditor.m; path = RichTextEditor/Source/RichTextEditor.m; sourceTree = "<group>"; };
+		E47400522DCBFCB925B5414F48562A18 /* popoverArrowDown-white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverArrowDown-white@2x.png"; path = "Resources/Popover/popoverArrowDown-white@2x.png"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9494B2C34951599A3D6B5B893FBBB2C /* italic@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "italic@2x.png"; path = "RichTextEditor/Source/Assets/italic@2x.png"; sourceTree = "<group>"; };
+		EA320ABF8043FAAAE9E5C922B8FCC3A0 /* popoverBg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "popoverBg@2x.png"; path = "Resources/Popover/popoverBg@2x.png"; sourceTree = "<group>"; };
+		EA49744141947BA728235E0923EAA0D7 /* image.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = image.png; path = RichTextEditor/Source/Assets/image.png; sourceTree = "<group>"; };
+		ED828AC8A0F58E687B9672974728F1D0 /* UIFont+RichTextEditor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+RichTextEditor.m"; path = "RichTextEditor/Source/Categories/UIFont+RichTextEditor.m"; sourceTree = "<group>"; };
+		ED93E44AACCB09C5724D6066F5209813 /* firstLineIndent@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "firstLineIndent@2x.png"; path = "RichTextEditor/Source/Assets/firstLineIndent@2x.png"; sourceTree = "<group>"; };
+		EEEAF2E587BDBE74C88313B062A4AA8C /* UIBarButtonItem+WEPopover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+WEPopover.m"; path = "Classes/Popover/UIBarButtonItem+WEPopover.m"; sourceTree = "<group>"; };
+		F269E2935FF78A6A59386BCDAB01BB63 /* bullist@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "bullist@2x.png"; path = "RichTextEditor/Source/Assets/bullist@2x.png"; sourceTree = "<group>"; };
+		F318F2ADC2BB9F4C24C87C5654C396DF /* buttonrightSelected.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = buttonrightSelected.png; path = RichTextEditor/Source/Assets/buttons/buttonrightSelected.png; sourceTree = "<group>"; };
+		F5871F4181CCD9DB48850D295BAD0569 /* email.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = email.png; path = RichTextEditor/Source/Assets/email.png; sourceTree = "<group>"; };
+		F65E52C2CC0B64606B51F1C56678E5B3 /* undo.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = undo.png; path = RichTextEditor/Source/Assets/undo.png; sourceTree = "<group>"; };
+		FED848741E689C0E2BB75DDB38CB5199 /* removeformat.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = removeformat.png; path = RichTextEditor/Source/Assets/removeformat.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2450C1CCE9B6F708A38CA90D54DD2FAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBCD2DB9C23F77C4A67A09C0C1E6887 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D012A499EF8B6F98E951E651EBC4ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B69A0FAE28523D5B8F4B20C7294F366A /* Foundation.framework in Frameworks */,
+				92019AF170104EA4737031076E6C15FE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0316D0B10C647B501B06CB0353F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D499C0904B425CC9E301D99EDA12D9 /* Foundation.framework in Frameworks */,
+				99D0977C6CA28ED29CBB2C5408E10E97 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337F45E67AAAA64A73AB0A344365CC4B /* iOS-Rich-Text-Editor */ = {
+			isa = PBXGroup;
+			children = (
+				22CD2373CDD1A620177F9F4A4301756B /* NSAttributedString+RichTextEditor.h */,
+				3F6051C638DDF212F064CF2B021D6252 /* NSAttributedString+RichTextEditor.m */,
+				D185A8610B72689778ABBC62AF9C05C7 /* RichTextEditor.h */,
+				E3E9F70C8EA8FF087BBBD9F98C661268 /* RichTextEditor.m */,
+				3A76231E535D745F961770DC9C653299 /* RichTextEditorColorPicker.h */,
+				224445DF6F9C453D2B74C274150D2806 /* RichTextEditorColorPickerViewController.h */,
+				6F21A5AE109FF43A244A60DCCF59E536 /* RichTextEditorColorPickerViewController.m */,
+				C46E55B5DE8C94A173DBBD669A4B91DC /* RichTextEditorFontPicker.h */,
+				1F5300BF4A729B11561BA496C7962AC6 /* RichTextEditorFontPickerViewController.h */,
+				30081606F5799EE940A6E41F92A5DF9B /* RichTextEditorFontPickerViewController.m */,
+				DFAB0302A02DDF57B146C952C109B00D /* RichTextEditorFontSizePicker.h */,
+				AA57CC570FE1AF04042A68A7B8F24D4F /* RichTextEditorFontSizePickerViewController.h */,
+				4483C448A61F89BB331A165CC9DF2DD8 /* RichTextEditorFontSizePickerViewController.m */,
+				9494F068460A0C2CD5755C8A05FE8F7F /* RichTextEditorLinkPickerViewController.h */,
+				D5093A1FC2E950629D6EFC46BE56834A /* RichTextEditorLinkPickerViewController.m */,
+				9DD8AD1A8D9DB692BE4BC2A5B510DF6C /* RichTextEditorPopover.h */,
+				27F2F81A8AC4CA6F4A18C7178E702A59 /* RichTextEditorToggleButton.h */,
+				AFD0D0F306A79A60D8AD7898DC9F8D46 /* RichTextEditorToggleButton.m */,
+				B8CC7460619EECA07B58F8364BE3EE1A /* RichTextEditorToolbar.h */,
+				4CB4B320979ECBE5A437778ED67E6F28 /* RichTextEditorToolbar.m */,
+				647A008DB607C77C9240502BC819BC08 /* UIFont+RichTextEditor.h */,
+				ED828AC8A0F58E687B9672974728F1D0 /* UIFont+RichTextEditor.m */,
+				3431C11D964C310B73C9AF03D56E6A6C /* UIView+RichTextEditor.h */,
+				6EDCD1972FA5FCAB1843CBF8771BD7F0 /* UIView+RichTextEditor.m */,
+				F5512075097E6D1EBABF6C9EC89654E5 /* Resources */,
+				D9AC5F61BA81CF794E34CA2E616AC09F /* Support Files */,
+			);
+			path = "iOS-Rich-Text-Editor";
+			sourceTree = "<group>";
+		};
+		35B06C96E525A99C66EA8DACE4561EB9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE36878331048935C122C01CF29BAFFC /* WEPopover.xcconfig */,
+				6D160006FFCA90D72391EE6D994CB4C3 /* WEPopover-dummy.m */,
+				76CB224454E6473DA3E3E97C6EED84D3 /* WEPopover-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WEPopover";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C331B4717A26348DCAEC7BE62325883 /* WEPopover */ = {
+			isa = PBXGroup;
+			children = (
+				74E401D8CB2102C59CD1BA27B6BDD981 /* UIBarButtonItem+WEPopover.h */,
+				EEEAF2E587BDBE74C88313B062A4AA8C /* UIBarButtonItem+WEPopover.m */,
+				A29B783E1C157C796ED03AAF94F06BAB /* WEPopoverContainerView.h */,
+				71D34B577605E13B5AE7FF76400D3E9F /* WEPopoverContainerView.m */,
+				4D9CD28F2BCE7F6842DFACBD61CA33C8 /* WEPopoverController.h */,
+				D1F3C8DB1CE1880D1068C603CC4FE3FB /* WEPopoverController.m */,
+				46F0A83B75C506546470D7067FFA9DD1 /* WEPopoverParentView.h */,
+				157B1F92C7C98F66F26F16F22DA64C50 /* WETouchableView.h */,
+				1EDB200555CAD974A1D7900927DA33E7 /* WETouchableView.m */,
+				D3451FF4D14F59BC4EA2B0182C1D60AD /* Resources */,
+				35B06C96E525A99C66EA8DACE4561EB9 /* Support Files */,
+			);
+			path = WEPopover;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B9E421BFCC446FC18A9BCC1A30DE8BAB /* Pods */,
+				F4F52FBE07A3DE26AC92989BCA4E697A /* Products */,
+				F79598777216477912CA97BE1D8182B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E421BFCC446FC18A9BCC1A30DE8BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				337F45E67AAAA64A73AB0A344365CC4B /* iOS-Rich-Text-Editor */,
+				4C331B4717A26348DCAEC7BE62325883 /* WEPopover */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3451FF4D14F59BC4EA2B0182C1D60AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C91E1FE07D64D474E71B549344AE46F /* popoverArrowDown.png */,
+				E47400522DCBFCB925B5414F48562A18 /* popoverArrowDown-white@2x.png */,
+				DC4EF8044CDBD7ECD22A7A3FBC3D25EA /* popoverArrowDown@2x.png */,
+				D95165A0E578A5E4024F624C37D555C4 /* popoverArrowDownSimple.png */,
+				46870A545E8796A225C2AD0972547441 /* popoverArrowLeft.png */,
+				10BF6BCEBF003826F995A4FA7EDC8FF2 /* popoverArrowLeft-white@2x.png */,
+				637B75C085016B0F1E7021E1D9C95A25 /* popoverArrowLeft@2x.png */,
+				C684700412D0DA5F1C485E6D683BC383 /* popoverArrowLeftSimple.png */,
+				6B53131CC3619EB12DA8112E24740A7F /* popoverArrowRight.png */,
+				CF9A4F23AF273BA5F2CB7E41ADD5007A /* popoverArrowRight-white@2x.png */,
+				673931E339007665E7164123F1588597 /* popoverArrowRight@2x.png */,
+				5AF3267EC0DC0498AF8DDB41EDB565F5 /* popoverArrowRightSimple.png */,
+				9BAD7F8598A33A6C6956FDF913F7C6E4 /* popoverArrowUp.png */,
+				DB038343763CF49DC693A84352ACC516 /* popoverArrowUp-white@2x.png */,
+				63F7972C9B10DB06B38E59E5158AE24E /* popoverArrowUp@2x.png */,
+				3E94E9B82A7C834D0BD43E0343C08540 /* popoverArrowUpSimple.png */,
+				81F695340416BC575B69A1E161BE650C /* popoverBg.png */,
+				4CD08FC1EF58950498CA90D3EA84CAFB /* popoverBg-white@2x.png */,
+				EA320ABF8043FAAAE9E5C922B8FCC3A0 /* popoverBg@2x.png */,
+				76BAD7883EE8087D42862B1899EDB951 /* popoverBgSimple.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D9AC5F61BA81CF794E34CA2E616AC09F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14A0F1774704F1B7944AF4261D57928D /* iOS-Rich-Text-Editor.xcconfig */,
+				D197A1D626734AC88320195B8498C301 /* iOS-Rich-Text-Editor-dummy.m */,
+				A95E86EC5C90B8EC07F7F4DD66D2E5B1 /* iOS-Rich-Text-Editor-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOS-Rich-Text-Editor";
+			sourceTree = "<group>";
+		};
+		EC794E85A2FF3E114DE52A3642DBA9D7 /* Pods-CodeViewPopTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC3ED59BC434709CB83471D1DE76FF /* Pods-CodeViewPopTest-acknowledgements.markdown */,
+				39545A03C8ABD34350A94CEEE633C5B5 /* Pods-CodeViewPopTest-acknowledgements.plist */,
+				AA571A0F46751A1557405EB13834126A /* Pods-CodeViewPopTest-dummy.m */,
+				C702762E88380913FDFF97FC1FF97BD9 /* Pods-CodeViewPopTest-frameworks.sh */,
+				DAE7EC9F1C5BA50E1FEE01C0C0137067 /* Pods-CodeViewPopTest-resources.sh */,
+				24BB4907A707ECAEDC93D27D93912DB4 /* Pods-CodeViewPopTest.debug.xcconfig */,
+				D992803C7E768174AB0F572E37ABA716 /* Pods-CodeViewPopTest.release.xcconfig */,
+			);
+			name = "Pods-CodeViewPopTest";
+			path = "Target Support Files/Pods-CodeViewPopTest";
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F4F52FBE07A3DE26AC92989BCA4E697A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0E51FBFABCA2AA2879BC0E3497141B /* libiOS-Rich-Text-Editor.a */,
+				52F5900F38637CE93E46D23BFC072E71 /* libPods-CodeViewPopTest.a */,
+				93BD1FE4286B17F921BC565D600A47C9 /* libWEPopover.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5512075097E6D1EBABF6C9EC89654E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA10BD3D66E0C32E130AC1D790B5FB2E /* backcolor.png */,
+				24FAC0639F751930062457B314A2F20D /* bold.png */,
+				BFA362A943FE35582BFCDE1EF1C8DB6F /* bold@2x.png */,
+				0163E0883D9873A548845165FA11B6E2 /* bullist.png */,
+				F269E2935FF78A6A59386BCDAB01BB63 /* bullist@2x.png */,
+				0CBEE1FAD0DF8A6AC42B2D9DF657F39A /* button.png */,
+				1CDDCD85EB4309032CF231C419E6BE94 /* buttoncenter.png */,
+				44ED1A7ACD6960241C44A6DF38D0C206 /* buttoncenterSelected.png */,
+				C3A187334D3C205938015F5BE7058973 /* buttonleft.png */,
+				2551BC0F9DE4F5D6FCE35D301BCAF116 /* buttonleftSelected.png */,
+				DCF2F82FB8E50AA83C7962E1900EBD74 /* buttonright.png */,
+				F318F2ADC2BB9F4C24C87C5654C396DF /* buttonrightSelected.png */,
+				6662437CC92250F56079A37731215C22 /* buttons */,
+				5C1C6974C31A64587B48B5929D83F822 /* buttonSelected.png */,
+				D1D19269622AB0F00227D8299BE8133D /* code.png */,
+				9BB3FCCFAC2E64384BA75FA71519CD9F /* colors.jpg */,
+				D2A504EB63761770BB90EABB7B3942C4 /* colorsOld.jpg */,
+				9686005A466BE693F1023C39740446D7 /* dropDownTriangle.png */,
+				D1CDFC4A12D90CDECF77A1FF319B6F41 /* dropDownTriangle@2x.png */,
+				F5871F4181CCD9DB48850D295BAD0569 /* email.png */,
+				B86A35212CFDEFD8E2B3F875E0DC3E7D /* file.png */,
+				CD835FFB890045EB51459F69416CFE61 /* firstLineIndent.png */,
+				ED93E44AACCB09C5724D6066F5209813 /* firstLineIndent@2x.png */,
+				60C666250611B6903FEEAE424CE879DB /* forecolor.png */,
+				EA49744141947BA728235E0923EAA0D7 /* image.png */,
+				DAABCD2783B497EE7DA13CA0DE74E2B9 /* indent.png */,
+				61D467DA761A7E75053727D6BF89C72F /* indent@2x.png */,
+				1E38DD875B8CE62A5679913B781AA347 /* italic.png */,
+				E9494B2C34951599A3D6B5B893FBBB2C /* italic@2x.png */,
+				4777285E96687C97AA48084D455D3631 /* justifycenter.png */,
+				DEB8A16E29F90F10E74EA59B00C29015 /* justifycenter@2x.png */,
+				2DF61C338416F4D01636158DA7888C83 /* justifyfull.png */,
+				9EB6F6470AD4A1A647C4D19B0C85645A /* justifyfull@2x.png */,
+				07CB4498CBBB6EA5A3ABE6FAF433BBF9 /* justifyleft.png */,
+				86D499B212B1277FECC9EACCED6DE352 /* justifyleft@2x.png */,
+				0EA1B652E699CFD24237218A649337FC /* justifyright.png */,
+				5110BF9920E408C179C5A3F1C030B2D6 /* justifyright@2x.png */,
+				D1284457274FA31CB9F235D007AE2EC7 /* link.png */,
+				266E01C8FE54EBA2C3D7481DCD81205E /* numlist.png */,
+				085F12A95A1A7D010FE2A098E82925F1 /* numlist@2x.png */,
+				C6B5CED4D107ED59C26D922B29D4D7AB /* outdent.png */,
+				27416B6CC4B136360D1071716462B9A2 /* outdent@2x.png */,
+				6B016D046E32C105A6703B373E6817FE /* redo.png */,
+				FED848741E689C0E2BB75DDB38CB5199 /* removeformat.png */,
+				8D82F2685722A67600EFCD7710E84174 /* strikethrough.png */,
+				C0C42F212CB2DC13E47197E66963533F /* strikethrough@2x.png */,
+				39952D5F9573D962C345C28BB5837975 /* underline.png */,
+				4E2CB198B4A7EFCB913353B45318E960 /* underline@2x.png */,
+				F65E52C2CC0B64606B51F1C56678E5B3 /* undo.png */,
+				3BD74DE9DFADFED55742F634B7FCB402 /* unlink.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F79598777216477912CA97BE1D8182B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC794E85A2FF3E114DE52A3642DBA9D7 /* Pods-CodeViewPopTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4019ACE4DFCC3E441972B5EE8852BFC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C096C8DD0C6015D292D12A2E6EA217F /* UIBarButtonItem+WEPopover.h in Headers */,
+				0D2A21B7C386C2CB1828C1D4FD5CE4C7 /* WEPopoverContainerView.h in Headers */,
+				7CBF3F9BD599AA4B678AF863D8015C04 /* WEPopoverController.h in Headers */,
+				E2511C8A73EC557C2A7A499C72023A00 /* WEPopoverParentView.h in Headers */,
+				191EDC39E845D47D9E90E02614EEDF50 /* WETouchableView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE0084F26C912374E814B5D67651512 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				977347A68FFC26811534128B3E418033 /* NSAttributedString+RichTextEditor.h in Headers */,
+				70D7B46221D1D06BA98FEC24A825CF1C /* RichTextEditor.h in Headers */,
+				290A761A65379546CFB25DEE43F0FD1B /* RichTextEditorColorPicker.h in Headers */,
+				9AD7D3E372B8922EEA869153D307CEBF /* RichTextEditorColorPickerViewController.h in Headers */,
+				991CA9F3FC24B159E775BC304514E67F /* RichTextEditorFontPicker.h in Headers */,
+				64579BC9B881367C00EFFB1F4132FEEC /* RichTextEditorFontPickerViewController.h in Headers */,
+				17EB1C1DA7121657743E1BDD9C9A9647 /* RichTextEditorFontSizePicker.h in Headers */,
+				12096201362FC6BC0395D6FD9892BB5D /* RichTextEditorFontSizePickerViewController.h in Headers */,
+				1DA1172FDCE3F79AF2B702230171DCC1 /* RichTextEditorLinkPickerViewController.h in Headers */,
+				2F4B4DFCBC592312516618947ED0AC22 /* RichTextEditorPopover.h in Headers */,
+				57603090D8A5D1AD8436CF49D5DC8E58 /* RichTextEditorToggleButton.h in Headers */,
+				D7D2BE8C756DED58519161843A3FCA16 /* RichTextEditorToolbar.h in Headers */,
+				B226F69F47BA2B4A3BADCDFFA550ED9B /* UIFont+RichTextEditor.h in Headers */,
+				09233FE7C35311AAC517DA2DA3AA012C /* UIView+RichTextEditor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39775BD99EC9F4D7ECFDAFB8474BA088 /* WEPopover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD974A8242A05B6B6D722954B0CAF23D /* Build configuration list for PBXNativeTarget "WEPopover" */;
+			buildPhases = (
+				1FC6ECFADA472A91A03CB4CF603D556D /* Sources */,
+				5AE0316D0B10C647B501B06CB0353F0D /* Frameworks */,
+				4019ACE4DFCC3E441972B5EE8852BFC5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WEPopover;
+			productName = WEPopover;
+			productReference = 93BD1FE4286B17F921BC565D600A47C9 /* libWEPopover.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		92C6BAD28546EC61B661C604CEBE9001 /* iOS-Rich-Text-Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B462E70245DA91E355DD1ABA04F1A5CA /* Build configuration list for PBXNativeTarget "iOS-Rich-Text-Editor" */;
+			buildPhases = (
+				3C361E124D04E50504A7030DAA822B39 /* Sources */,
+				3D012A499EF8B6F98E951E651EBC4ACB /* Frameworks */,
+				FAE0084F26C912374E814B5D67651512 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECBE934AC0642142A5FF1E4CC6636B17 /* PBXTargetDependency */,
+			);
+			name = "iOS-Rich-Text-Editor";
+			productName = "iOS-Rich-Text-Editor";
+			productReference = AA0E51FBFABCA2AA2879BC0E3497141B /* libiOS-Rich-Text-Editor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD3FEB43D2CDB3C9A4EF01357632B183 /* Pods-CodeViewPopTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4DC066FDEBA754952354350D237A56C /* Build configuration list for PBXNativeTarget "Pods-CodeViewPopTest" */;
+			buildPhases = (
+				020B1F54DE7A5C4FB9FC3673730C0436 /* Sources */,
+				2450C1CCE9B6F708A38CA90D54DD2FAE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1661169A81ABEE50898542C47E1C916D /* PBXTargetDependency */,
+				EAD08FD58383004305047C9A017F6E74 /* PBXTargetDependency */,
+			);
+			name = "Pods-CodeViewPopTest";
+			productName = "Pods-CodeViewPopTest";
+			productReference = 52F5900F38637CE93E46D23BFC072E71 /* libPods-CodeViewPopTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F4F52FBE07A3DE26AC92989BCA4E697A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92C6BAD28546EC61B661C604CEBE9001 /* iOS-Rich-Text-Editor */,
+				DD3FEB43D2CDB3C9A4EF01357632B183 /* Pods-CodeViewPopTest */,
+				39775BD99EC9F4D7ECFDAFB8474BA088 /* WEPopover */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		020B1F54DE7A5C4FB9FC3673730C0436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0543155408F85A2403B6FEAE17133D0C /* Pods-CodeViewPopTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC6ECFADA472A91A03CB4CF603D556D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AAC1B76DE8C84A918A7B3BB1C39DAE /* UIBarButtonItem+WEPopover.m in Sources */,
+				901E251EFEF498B434E9F9F31410938F /* WEPopover-dummy.m in Sources */,
+				8E9E913A814CC16CC8B0E0509DA6716D /* WEPopoverContainerView.m in Sources */,
+				952BDE20A73FBB5CE52CA7B7E9953404 /* WEPopoverController.m in Sources */,
+				9587147552AF68A2C6C7A5500B722D37 /* WETouchableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C361E124D04E50504A7030DAA822B39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8C786495C53332A6081B8687D9CCE5 /* iOS-Rich-Text-Editor-dummy.m in Sources */,
+				08957F08140CC22A3A162349DCFCE7DD /* NSAttributedString+RichTextEditor.m in Sources */,
+				C5C3F833E1582BDC2D58FFAFFA802732 /* RichTextEditor.m in Sources */,
+				D83BF9D9F89A06379A3F5D6B6DCCDA0D /* RichTextEditorColorPickerViewController.m in Sources */,
+				5415ABBB5220741E89FB97EC94A324C6 /* RichTextEditorFontPickerViewController.m in Sources */,
+				D04BA5C948C8D28163EA733CE5224C90 /* RichTextEditorFontSizePickerViewController.m in Sources */,
+				A9ABC220AB93F9D9BD8F8832FB3AAB0B /* RichTextEditorLinkPickerViewController.m in Sources */,
+				40D00B0AC538FDB98AA4D7C4FBFFDD4E /* RichTextEditorToggleButton.m in Sources */,
+				FF50AEB3F7A786135E45A96264DE6A80 /* RichTextEditorToolbar.m in Sources */,
+				08B516695B1C1989225030F2C1734A76 /* UIFont+RichTextEditor.m in Sources */,
+				39D1332FCFD2748E2140295649051867 /* UIView+RichTextEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1661169A81ABEE50898542C47E1C916D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WEPopover;
+			target = 39775BD99EC9F4D7ECFDAFB8474BA088 /* WEPopover */;
+			targetProxy = 919341AD669765250B2E6E00C976BEDD /* PBXContainerItemProxy */;
+		};
+		EAD08FD58383004305047C9A017F6E74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iOS-Rich-Text-Editor";
+			target = 92C6BAD28546EC61B661C604CEBE9001 /* iOS-Rich-Text-Editor */;
+			targetProxy = 0C7AC5640002E499F914F40F1B6E455C /* PBXContainerItemProxy */;
+		};
+		ECBE934AC0642142A5FF1E4CC6636B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WEPopover;
+			target = 39775BD99EC9F4D7ECFDAFB8474BA088 /* WEPopover */;
+			targetProxy = 5424CC302C4EC610A5AC13CD1F267DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		352E5096A8B2854C508279BC05F29858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE36878331048935C122C01CF29BAFFC /* WEPopover.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WEPopover/WEPopover-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA2475660FFC880302AD18E29B2E5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5EDE2C00CD4ADE90DA0A75C8525DDD53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BB4907A707ECAEDC93D27D93912DB4 /* Pods-CodeViewPopTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7271F0708BCA501F68DEA46C47883898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A0F1774704F1B7944AF4261D57928D /* iOS-Rich-Text-Editor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Rich-Text-Editor/iOS-Rich-Text-Editor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A4C067EE681A0362A885E3A0D7644B79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE36878331048935C122C01CF29BAFFC /* WEPopover.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WEPopover/WEPopover-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B4EA039068782F12B0EEA4D176FD1021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A0F1774704F1B7944AF4261D57928D /* iOS-Rich-Text-Editor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iOS-Rich-Text-Editor/iOS-Rich-Text-Editor-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C9AFDC7F205FF315B9C682F6F2961C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D992803C7E768174AB0F572E37ABA716 /* Pods-CodeViewPopTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F325026B55060D3B22BEC0BAB5FA7344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FA2475660FFC880302AD18E29B2E5FC /* Debug */,
+				F325026B55060D3B22BEC0BAB5FA7344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B462E70245DA91E355DD1ABA04F1A5CA /* Build configuration list for PBXNativeTarget "iOS-Rich-Text-Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7271F0708BCA501F68DEA46C47883898 /* Debug */,
+				B4EA039068782F12B0EEA4D176FD1021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4DC066FDEBA754952354350D237A56C /* Build configuration list for PBXNativeTarget "Pods-CodeViewPopTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDE2C00CD4ADE90DA0A75C8525DDD53 /* Debug */,
+				C9AFDC7F205FF315B9C682F6F2961C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD974A8242A05B6B6D722954B0CAF23D /* Build configuration list for PBXNativeTarget "WEPopover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				352E5096A8B2854C508279BC05F29858 /* Debug */,
+				A4C067EE681A0362A885E3A0D7644B79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D71B7D3952F032A182A1504 /* libPods-CodeViewPopTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9CF10E2DA0872243B2263B0 /* libPods-CodeViewPopTest.a */; };
+		EAC5E8151D3CC01C0077912C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8141D3CC01C0077912C /* main.m */; };
+		EAC5E8181D3CC01C0077912C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8171D3CC01C0077912C /* AppDelegate.m */; };
+		EAC5E81B1D3CC01C0077912C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E81A1D3CC01C0077912C /* ViewController.m */; };
+		EAC5E81E1D3CC01C0077912C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E81C1D3CC01C0077912C /* Main.storyboard */; };
+		EAC5E8201D3CC01C0077912C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E81F1D3CC01C0077912C /* Assets.xcassets */; };
+		EAC5E8231D3CC01C0077912C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8211D3CC01C0077912C /* LaunchScreen.storyboard */; };
+		EAC5E82E1D3CC01C0077912C /* CodeViewPopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E82D1D3CC01C0077912C /* CodeViewPopTests.m */; };
+		EAC5E8391D3CC01C0077912C /* CodeViewPopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8381D3CC01C0077912C /* CodeViewPopUITests.m */; };
+		EAC5E8611D3CC4620077912C /* NSAttributedString+MyRichTextEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8491D3CC4620077912C /* NSAttributedString+MyRichTextEditor.m */; };
+		EAC5E8621D3CC4620077912C /* PTDCodeViewEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E84C1D3CC4620077912C /* PTDCodeViewEditor.m */; };
+		EAC5E8631D3CC4620077912C /* PTDCodeViewEditorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E84E1D3CC4620077912C /* PTDCodeViewEditorHelper.m */; };
+		EAC5E8641D3CC4620077912C /* PTDCodeViewEditorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8501D3CC4620077912C /* PTDCodeViewEditorParser.m */; };
+		EAC5E8651D3CC4620077912C /* PTDNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8521D3CC4620077912C /* PTDNavViewController.m */; };
+		EAC5E8661D3CC4620077912C /* PTDRichTextEditorCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8541D3CC4620077912C /* PTDRichTextEditorCategoryViewController.m */; };
+		EAC5E8671D3CC4620077912C /* PTDRichTextEditorToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8571D3CC4620077912C /* PTDRichTextEditorToggleButton.m */; };
+		EAC5E8681D3CC4620077912C /* PTDRichTextEditorToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8591D3CC4620077912C /* PTDRichTextEditorToolbar.m */; };
+		EAC5E8691D3CC4620077912C /* LineNumberLayoutManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E85E1D3CC4620077912C /* LineNumberLayoutManager.m */; };
+		EAC5E86A1D3CC4620077912C /* LineNumberTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E8601D3CC4620077912C /* LineNumberTextView.m */; };
+		EAC5E86C1D3CC48E0077912C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5E86B1D3CC48E0077912C /* UIKit.framework */; };
+		EAC5E86E1D3CC4E30077912C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5E86D1D3CC4E30077912C /* CoreText.framework */; };
+		EAC5E8701D3CC4E70077912C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5E86F1D3CC4E70077912C /* Foundation.framework */; };
+		EAC5E8721D3CC4EE0077912C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5E8711D3CC4EE0077912C /* CoreGraphics.framework */; };
+		EAC5E8801D3CC6880077912C /* custom-menu.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8741D3CC6880077912C /* custom-menu.json */; };
+		EAC5E8811D3CC6880077912C /* examplesketch.ino in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8751D3CC6880077912C /* examplesketch.ino */; };
+		EAC5E8821D3CC6880077912C /* keywords.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8761D3CC6880077912C /* keywords.txt */; };
+		EAC5E8831D3CC6880077912C /* largeTestSketch.ino in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8771D3CC6880077912C /* largeTestSketch.ino */; };
+		EAC5E8841D3CC6880077912C /* largeTextSketchTest.txt in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8781D3CC6880077912C /* largeTextSketchTest.txt */; };
+		EAC5E8851D3CC6880077912C /* menu~ipad.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E8791D3CC6880077912C /* menu~ipad.json */; };
+		EAC5E8861D3CC6880077912C /* menu~iphone.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E87A1D3CC6880077912C /* menu~iphone.json */; };
+		EAC5E8871D3CC6880077912C /* testTextSkip.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E87B1D3CC6880077912C /* testTextSkip.json */; };
+		EAC5E8881D3CC6880077912C /* textColors.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E87C1D3CC6880077912C /* textColors.json */; };
+		EAC5E8891D3CC6880077912C /* textReplace.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E87D1D3CC6880077912C /* textReplace.json */; };
+		EAC5E88A1D3CC6880077912C /* textSkip.json in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E87E1D3CC6880077912C /* textSkip.json */; };
+		EAC5E88B1D3CC6880077912C /* x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC5E87F1D3CC6880077912C /* x.png */; };
+		EAC5E88E1D3CC6E10077912C /* PopUpCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC5E88D1D3CC6E10077912C /* PopUpCodeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAC5E82A1D3CC01C0077912C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC5E8081D3CC01C0077912C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC5E80F1D3CC01C0077912C;
+			remoteInfo = CodeViewPop;
+		};
+		EAC5E8351D3CC01C0077912C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAC5E8081D3CC01C0077912C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAC5E80F1D3CC01C0077912C;
+			remoteInfo = CodeViewPop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B450832377CF5C1EE22565E /* Pods-CodeViewPopTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeViewPopTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-CodeViewPopTest/Pods-CodeViewPopTest.release.xcconfig"; sourceTree = "<group>"; };
+		D9CF10E2DA0872243B2263B0 /* libPods-CodeViewPopTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CodeViewPopTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5E8101D3CC01C0077912C /* CodeViewPopTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeViewPopTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5E8141D3CC01C0077912C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAC5E8161D3CC01C0077912C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAC5E8171D3CC01C0077912C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAC5E8191D3CC01C0077912C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAC5E81A1D3CC01C0077912C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAC5E81D1D3CC01C0077912C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAC5E81F1D3CC01C0077912C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAC5E8221D3CC01C0077912C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAC5E8241D3CC01C0077912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC5E8291D3CC01C0077912C /* CodeViewPopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeViewPopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5E82D1D3CC01C0077912C /* CodeViewPopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeViewPopTests.m; sourceTree = "<group>"; };
+		EAC5E82F1D3CC01C0077912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC5E8341D3CC01C0077912C /* CodeViewPopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeViewPopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC5E8381D3CC01C0077912C /* CodeViewPopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeViewPopUITests.m; sourceTree = "<group>"; };
+		EAC5E83A1D3CC01C0077912C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC5E8481D3CC4620077912C /* NSAttributedString+MyRichTextEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+MyRichTextEditor.h"; sourceTree = "<group>"; };
+		EAC5E8491D3CC4620077912C /* NSAttributedString+MyRichTextEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+MyRichTextEditor.m"; sourceTree = "<group>"; };
+		EAC5E84A1D3CC4620077912C /* RichTextEditor+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RichTextEditor+Protected.h"; sourceTree = "<group>"; };
+		EAC5E84B1D3CC4620077912C /* RichTextEditorToolbar+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RichTextEditorToolbar+Protected.h"; sourceTree = "<group>"; };
+		EAC5E84C1D3CC4620077912C /* PTDCodeViewEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDCodeViewEditor.m; sourceTree = "<group>"; };
+		EAC5E84D1D3CC4620077912C /* PTDCodeViewEditorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDCodeViewEditorHelper.h; sourceTree = "<group>"; };
+		EAC5E84E1D3CC4620077912C /* PTDCodeViewEditorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDCodeViewEditorHelper.m; sourceTree = "<group>"; };
+		EAC5E84F1D3CC4620077912C /* PTDCodeViewEditorParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDCodeViewEditorParser.h; sourceTree = "<group>"; };
+		EAC5E8501D3CC4620077912C /* PTDCodeViewEditorParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDCodeViewEditorParser.m; sourceTree = "<group>"; };
+		EAC5E8511D3CC4620077912C /* PTDNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDNavViewController.h; sourceTree = "<group>"; };
+		EAC5E8521D3CC4620077912C /* PTDNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDNavViewController.m; sourceTree = "<group>"; };
+		EAC5E8531D3CC4620077912C /* PTDRichTextEditorCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDRichTextEditorCategoryViewController.h; sourceTree = "<group>"; };
+		EAC5E8541D3CC4620077912C /* PTDRichTextEditorCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDRichTextEditorCategoryViewController.m; sourceTree = "<group>"; };
+		EAC5E8551D3CC4620077912C /* PTDRichTextEditorMacroPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDRichTextEditorMacroPicker.h; sourceTree = "<group>"; };
+		EAC5E8561D3CC4620077912C /* PTDRichTextEditorToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDRichTextEditorToggleButton.h; sourceTree = "<group>"; };
+		EAC5E8571D3CC4620077912C /* PTDRichTextEditorToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDRichTextEditorToggleButton.m; sourceTree = "<group>"; };
+		EAC5E8581D3CC4620077912C /* PTDRichTextEditorToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDRichTextEditorToolbar.h; sourceTree = "<group>"; };
+		EAC5E8591D3CC4620077912C /* PTDRichTextEditorToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PTDRichTextEditorToolbar.m; sourceTree = "<group>"; };
+		EAC5E85B1D3CC4620077912C /* PTDCodeViewEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PTDCodeViewEditor.h; sourceTree = "<group>"; };
+		EAC5E85D1D3CC4620077912C /* LineNumberLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineNumberLayoutManager.h; sourceTree = "<group>"; };
+		EAC5E85E1D3CC4620077912C /* LineNumberLayoutManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineNumberLayoutManager.m; sourceTree = "<group>"; };
+		EAC5E85F1D3CC4620077912C /* LineNumberTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineNumberTextView.h; sourceTree = "<group>"; };
+		EAC5E8601D3CC4620077912C /* LineNumberTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineNumberTextView.m; sourceTree = "<group>"; };
+		EAC5E86B1D3CC48E0077912C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAC5E86D1D3CC4E30077912C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EAC5E86F1D3CC4E70077912C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAC5E8711D3CC4EE0077912C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAC5E8741D3CC6880077912C /* custom-menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "custom-menu.json"; sourceTree = "<group>"; };
+		EAC5E8751D3CC6880077912C /* examplesketch.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = examplesketch.ino; sourceTree = "<group>"; };
+		EAC5E8761D3CC6880077912C /* keywords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keywords.txt; sourceTree = "<group>"; };
+		EAC5E8771D3CC6880077912C /* largeTestSketch.ino */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = largeTestSketch.ino; sourceTree = "<group>"; };
+		EAC5E8781D3CC6880077912C /* largeTextSketchTest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = largeTextSketchTest.txt; sourceTree = "<group>"; };
+		EAC5E8791D3CC6880077912C /* menu~ipad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "menu~ipad.json"; sourceTree = "<group>"; };
+		EAC5E87A1D3CC6880077912C /* menu~iphone.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "menu~iphone.json"; sourceTree = "<group>"; };
+		EAC5E87B1D3CC6880077912C /* testTextSkip.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testTextSkip.json; sourceTree = "<group>"; };
+		EAC5E87C1D3CC6880077912C /* textColors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = textColors.json; sourceTree = "<group>"; };
+		EAC5E87D1D3CC6880077912C /* textReplace.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = textReplace.json; sourceTree = "<group>"; };
+		EAC5E87E1D3CC6880077912C /* textSkip.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = textSkip.json; sourceTree = "<group>"; };
+		EAC5E87F1D3CC6880077912C /* x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x.png; sourceTree = "<group>"; };
+		EAC5E88C1D3CC6E10077912C /* PopUpCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpCodeViewController.h; sourceTree = "<group>"; };
+		EAC5E88D1D3CC6E10077912C /* PopUpCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpCodeViewController.m; sourceTree = "<group>"; };
+		F34241B5931AE1AE808CE891 /* Pods-CodeViewPopTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeViewPopTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CodeViewPopTest/Pods-CodeViewPopTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAC5E80D1D3CC01C0077912C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5E8721D3CC4EE0077912C /* CoreGraphics.framework in Frameworks */,
+				EAC5E8701D3CC4E70077912C /* Foundation.framework in Frameworks */,
+				EAC5E86E1D3CC4E30077912C /* CoreText.framework in Frameworks */,
+				EAC5E86C1D3CC48E0077912C /* UIKit.framework in Frameworks */,
+				2D71B7D3952F032A182A1504 /* libPods-CodeViewPopTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC5E8261D3CC01C0077912C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC5E8311D3CC01C0077912C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163730085E78486262C35559 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F34241B5931AE1AE808CE891 /* Pods-CodeViewPopTest.debug.xcconfig */,
+				5B450832377CF5C1EE22565E /* Pods-CodeViewPopTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9640D22D6BAEF467BBBED99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8711D3CC4EE0077912C /* CoreGraphics.framework */,
+				EAC5E86F1D3CC4E70077912C /* Foundation.framework */,
+				EAC5E86D1D3CC4E30077912C /* CoreText.framework */,
+				EAC5E86B1D3CC48E0077912C /* UIKit.framework */,
+				D9CF10E2DA0872243B2263B0 /* libPods-CodeViewPopTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAC5E8071D3CC01C0077912C = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8121D3CC01C0077912C /* CodeViewPop */,
+				EAC5E82C1D3CC01C0077912C /* CodeViewPopTests */,
+				EAC5E8371D3CC01C0077912C /* CodeViewPopUITests */,
+				EAC5E8111D3CC01C0077912C /* Products */,
+				163730085E78486262C35559 /* Pods */,
+				B9640D22D6BAEF467BBBED99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EAC5E8111D3CC01C0077912C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8101D3CC01C0077912C /* CodeViewPopTest.app */,
+				EAC5E8291D3CC01C0077912C /* CodeViewPopTests.xctest */,
+				EAC5E8341D3CC01C0077912C /* CodeViewPopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAC5E8121D3CC01C0077912C /* CodeViewPop */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E88C1D3CC6E10077912C /* PopUpCodeViewController.h */,
+				EAC5E88D1D3CC6E10077912C /* PopUpCodeViewController.m */,
+				EAC5E8731D3CC6880077912C /* Resources */,
+				EAC5E8461D3CC4620077912C /* PTDCodeViewEditor */,
+				EAC5E8161D3CC01C0077912C /* AppDelegate.h */,
+				EAC5E8171D3CC01C0077912C /* AppDelegate.m */,
+				EAC5E8191D3CC01C0077912C /* ViewController.h */,
+				EAC5E81A1D3CC01C0077912C /* ViewController.m */,
+				EAC5E81C1D3CC01C0077912C /* Main.storyboard */,
+				EAC5E81F1D3CC01C0077912C /* Assets.xcassets */,
+				EAC5E8211D3CC01C0077912C /* LaunchScreen.storyboard */,
+				EAC5E8241D3CC01C0077912C /* Info.plist */,
+				EAC5E8131D3CC01C0077912C /* Supporting Files */,
+			);
+			path = CodeViewPop;
+			sourceTree = "<group>";
+		};
+		EAC5E8131D3CC01C0077912C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8141D3CC01C0077912C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC5E82C1D3CC01C0077912C /* CodeViewPopTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E82D1D3CC01C0077912C /* CodeViewPopTests.m */,
+				EAC5E82F1D3CC01C0077912C /* Info.plist */,
+			);
+			path = CodeViewPopTests;
+			sourceTree = "<group>";
+		};
+		EAC5E8371D3CC01C0077912C /* CodeViewPopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8381D3CC01C0077912C /* CodeViewPopUITests.m */,
+				EAC5E83A1D3CC01C0077912C /* Info.plist */,
+			);
+			path = CodeViewPopUITests;
+			sourceTree = "<group>";
+		};
+		EAC5E8461D3CC4620077912C /* PTDCodeViewEditor */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8471D3CC4620077912C /* Categories */,
+				EAC5E84C1D3CC4620077912C /* PTDCodeViewEditor.m */,
+				EAC5E84D1D3CC4620077912C /* PTDCodeViewEditorHelper.h */,
+				EAC5E84E1D3CC4620077912C /* PTDCodeViewEditorHelper.m */,
+				EAC5E84F1D3CC4620077912C /* PTDCodeViewEditorParser.h */,
+				EAC5E8501D3CC4620077912C /* PTDCodeViewEditorParser.m */,
+				EAC5E8511D3CC4620077912C /* PTDNavViewController.h */,
+				EAC5E8521D3CC4620077912C /* PTDNavViewController.m */,
+				EAC5E8531D3CC4620077912C /* PTDRichTextEditorCategoryViewController.h */,
+				EAC5E8541D3CC4620077912C /* PTDRichTextEditorCategoryViewController.m */,
+				EAC5E8551D3CC4620077912C /* PTDRichTextEditorMacroPicker.h */,
+				EAC5E8561D3CC4620077912C /* PTDRichTextEditorToggleButton.h */,
+				EAC5E8571D3CC4620077912C /* PTDRichTextEditorToggleButton.m */,
+				EAC5E8581D3CC4620077912C /* PTDRichTextEditorToolbar.h */,
+				EAC5E8591D3CC4620077912C /* PTDRichTextEditorToolbar.m */,
+				EAC5E85A1D3CC4620077912C /* Public */,
+				EAC5E85C1D3CC4620077912C /* Vendor */,
+			);
+			path = PTDCodeViewEditor;
+			sourceTree = "<group>";
+		};
+		EAC5E8471D3CC4620077912C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8481D3CC4620077912C /* NSAttributedString+MyRichTextEditor.h */,
+				EAC5E8491D3CC4620077912C /* NSAttributedString+MyRichTextEditor.m */,
+				EAC5E84A1D3CC4620077912C /* RichTextEditor+Protected.h */,
+				EAC5E84B1D3CC4620077912C /* RichTextEditorToolbar+Protected.h */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		EAC5E85A1D3CC4620077912C /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E85B1D3CC4620077912C /* PTDCodeViewEditor.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		EAC5E85C1D3CC4620077912C /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E85D1D3CC4620077912C /* LineNumberLayoutManager.h */,
+				EAC5E85E1D3CC4620077912C /* LineNumberLayoutManager.m */,
+				EAC5E85F1D3CC4620077912C /* LineNumberTextView.h */,
+				EAC5E8601D3CC4620077912C /* LineNumberTextView.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		EAC5E8731D3CC6880077912C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5E8741D3CC6880077912C /* custom-menu.json */,
+				EAC5E8751D3CC6880077912C /* examplesketch.ino */,
+				EAC5E8761D3CC6880077912C /* keywords.txt */,
+				EAC5E8771D3CC6880077912C /* largeTestSketch.ino */,
+				EAC5E8781D3CC6880077912C /* largeTextSketchTest.txt */,
+				EAC5E8791D3CC6880077912C /* menu~ipad.json */,
+				EAC5E87A1D3CC6880077912C /* menu~iphone.json */,
+				EAC5E87B1D3CC6880077912C /* testTextSkip.json */,
+				EAC5E87C1D3CC6880077912C /* textColors.json */,
+				EAC5E87D1D3CC6880077912C /* textReplace.json */,
+				EAC5E87E1D3CC6880077912C /* textSkip.json */,
+				EAC5E87F1D3CC6880077912C /* x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAC5E80F1D3CC01C0077912C /* CodeViewPopTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC5E83D1D3CC01C0077912C /* Build configuration list for PBXNativeTarget "CodeViewPopTest" */;
+			buildPhases = (
+				B15A338E2AF17CDF47BF6CF5 /* [CP] Check Pods Manifest.lock */,
+				EAC5E80C1D3CC01C0077912C /* Sources */,
+				EAC5E80D1D3CC01C0077912C /* Frameworks */,
+				EAC5E80E1D3CC01C0077912C /* Resources */,
+				1D874D3EA0E12137CC598BF6 /* [CP] Embed Pods Frameworks */,
+				6784CEB834A83F95ECEE83C2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeViewPopTest;
+			productName = CodeViewPop;
+			productReference = EAC5E8101D3CC01C0077912C /* CodeViewPopTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAC5E8281D3CC01C0077912C /* CodeViewPopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC5E8401D3CC01C0077912C /* Build configuration list for PBXNativeTarget "CodeViewPopTests" */;
+			buildPhases = (
+				EAC5E8251D3CC01C0077912C /* Sources */,
+				EAC5E8261D3CC01C0077912C /* Frameworks */,
+				EAC5E8271D3CC01C0077912C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC5E82B1D3CC01C0077912C /* PBXTargetDependency */,
+			);
+			name = CodeViewPopTests;
+			productName = CodeViewPopTests;
+			productReference = EAC5E8291D3CC01C0077912C /* CodeViewPopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EAC5E8331D3CC01C0077912C /* CodeViewPopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAC5E8431D3CC01C0077912C /* Build configuration list for PBXNativeTarget "CodeViewPopUITests" */;
+			buildPhases = (
+				EAC5E8301D3CC01C0077912C /* Sources */,
+				EAC5E8311D3CC01C0077912C /* Frameworks */,
+				EAC5E8321D3CC01C0077912C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC5E8361D3CC01C0077912C /* PBXTargetDependency */,
+			);
+			name = CodeViewPopUITests;
+			productName = CodeViewPopUITests;
+			productReference = EAC5E8341D3CC01C0077912C /* CodeViewPopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAC5E8081D3CC01C0077912C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Lei Cao (Tony)";
+				TargetAttributes = {
+					EAC5E80F1D3CC01C0077912C = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EAC5E8281D3CC01C0077912C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAC5E80F1D3CC01C0077912C;
+					};
+					EAC5E8331D3CC01C0077912C = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EAC5E80F1D3CC01C0077912C;
+					};
+				};
+			};
+			buildConfigurationList = EAC5E80B1D3CC01C0077912C /* Build configuration list for PBXProject "CodeViewPop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAC5E8071D3CC01C0077912C;
+			productRefGroup = EAC5E8111D3CC01C0077912C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAC5E80F1D3CC01C0077912C /* CodeViewPopTest */,
+				EAC5E8281D3CC01C0077912C /* CodeViewPopTests */,
+				EAC5E8331D3CC01C0077912C /* CodeViewPopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAC5E80E1D3CC01C0077912C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5E8231D3CC01C0077912C /* LaunchScreen.storyboard in Resources */,
+				EAC5E8871D3CC6880077912C /* testTextSkip.json in Resources */,
+				EAC5E8881D3CC6880077912C /* textColors.json in Resources */,
+				EAC5E8801D3CC6880077912C /* custom-menu.json in Resources */,
+				EAC5E8861D3CC6880077912C /* menu~iphone.json in Resources */,
+				EAC5E8201D3CC01C0077912C /* Assets.xcassets in Resources */,
+				EAC5E81E1D3CC01C0077912C /* Main.storyboard in Resources */,
+				EAC5E8821D3CC6880077912C /* keywords.txt in Resources */,
+				EAC5E8851D3CC6880077912C /* menu~ipad.json in Resources */,
+				EAC5E88A1D3CC6880077912C /* textSkip.json in Resources */,
+				EAC5E8891D3CC6880077912C /* textReplace.json in Resources */,
+				EAC5E8811D3CC6880077912C /* examplesketch.ino in Resources */,
+				EAC5E88B1D3CC6880077912C /* x.png in Resources */,
+				EAC5E8831D3CC6880077912C /* largeTestSketch.ino in Resources */,
+				EAC5E8841D3CC6880077912C /* largeTextSketchTest.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC5E8271D3CC01C0077912C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC5E8321D3CC01C0077912C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D874D3EA0E12137CC598BF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeViewPopTest/Pods-CodeViewPopTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6784CEB834A83F95ECEE83C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CodeViewPopTest/Pods-CodeViewPopTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15A338E2AF17CDF47BF6CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAC5E80C1D3CC01C0077912C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5E81B1D3CC01C0077912C /* ViewController.m in Sources */,
+				EAC5E8181D3CC01C0077912C /* AppDelegate.m in Sources */,
+				EAC5E8151D3CC01C0077912C /* main.m in Sources */,
+				EAC5E8641D3CC4620077912C /* PTDCodeViewEditorParser.m in Sources */,
+				EAC5E88E1D3CC6E10077912C /* PopUpCodeViewController.m in Sources */,
+				EAC5E8621D3CC4620077912C /* PTDCodeViewEditor.m in Sources */,
+				EAC5E8661D3CC4620077912C /* PTDRichTextEditorCategoryViewController.m in Sources */,
+				EAC5E8671D3CC4620077912C /* PTDRichTextEditorToggleButton.m in Sources */,
+				EAC5E8651D3CC4620077912C /* PTDNavViewController.m in Sources */,
+				EAC5E8611D3CC4620077912C /* NSAttributedString+MyRichTextEditor.m in Sources */,
+				EAC5E8681D3CC4620077912C /* PTDRichTextEditorToolbar.m in Sources */,
+				EAC5E8691D3CC4620077912C /* LineNumberLayoutManager.m in Sources */,
+				EAC5E86A1D3CC4620077912C /* LineNumberTextView.m in Sources */,
+				EAC5E8631D3CC4620077912C /* PTDCodeViewEditorHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC5E8251D3CC01C0077912C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5E82E1D3CC01C0077912C /* CodeViewPopTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC5E8301D3CC01C0077912C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC5E8391D3CC01C0077912C /* CodeViewPopUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAC5E82B1D3CC01C0077912C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC5E80F1D3CC01C0077912C /* CodeViewPopTest */;
+			targetProxy = EAC5E82A1D3CC01C0077912C /* PBXContainerItemProxy */;
+		};
+		EAC5E8361D3CC01C0077912C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAC5E80F1D3CC01C0077912C /* CodeViewPopTest */;
+			targetProxy = EAC5E8351D3CC01C0077912C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAC5E81C1D3CC01C0077912C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC5E81D1D3CC01C0077912C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAC5E8211D3CC01C0077912C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAC5E8221D3CC01C0077912C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAC5E83B1D3CC01C0077912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAC5E83C1D3CC01C0077912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAC5E83E1D3CC01C0077912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34241B5931AE1AE808CE891 /* Pods-CodeViewPopTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodeViewPop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CodeViewPop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAC5E83F1D3CC01C0077912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B450832377CF5C1EE22565E /* Pods-CodeViewPopTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CodeViewPop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CodeViewPop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAC5E8411D3CC01C0077912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodeViewPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CodeViewPopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeViewPop.app/CodeViewPop";
+			};
+			name = Debug;
+		};
+		EAC5E8421D3CC01C0077912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CodeViewPopTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CodeViewPopTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeViewPop.app/CodeViewPop";
+			};
+			name = Release;
+		};
+		EAC5E8441D3CC01C0077912C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodeViewPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CodeViewPopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CodeViewPop;
+			};
+			name = Debug;
+		};
+		EAC5E8451D3CC01C0077912C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CodeViewPopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.CodeViewPopUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CodeViewPop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAC5E80B1D3CC01C0077912C /* Build configuration list for PBXProject "CodeViewPop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC5E83B1D3CC01C0077912C /* Debug */,
+				EAC5E83C1D3CC01C0077912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC5E83D1D3CC01C0077912C /* Build configuration list for PBXNativeTarget "CodeViewPopTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC5E83E1D3CC01C0077912C /* Debug */,
+				EAC5E83F1D3CC01C0077912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC5E8401D3CC01C0077912C /* Build configuration list for PBXNativeTarget "CodeViewPopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC5E8411D3CC01C0077912C /* Debug */,
+				EAC5E8421D3CC01C0077912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAC5E8431D3CC01C0077912C /* Build configuration list for PBXNativeTarget "CodeViewPopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAC5E8441D3CC01C0077912C /* Debug */,
+				EAC5E8451D3CC01C0077912C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAC5E8081D3CC01C0077912C /* Project object */;
+}

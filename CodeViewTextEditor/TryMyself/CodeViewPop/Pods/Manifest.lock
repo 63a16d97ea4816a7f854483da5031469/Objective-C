@@ -1,0 +1,26 @@
+PODS:
+  - iOS-Rich-Text-Editor (0.0.1):
+    - WEPopover (~> 1.0.0)
+  - WEPopover (1.0.0)
+
+DEPENDENCIES:
+  - iOS-Rich-Text-Editor (from `https://github.com/aryaxt/iOS-Rich-Text-Editor.git`, commit `4ddd86bbd6764d0a052ffa2db4e90037562162d6`)
+  - WEPopover
+
+EXTERNAL SOURCES:
+  iOS-Rich-Text-Editor:
+    :commit: 4ddd86bbd6764d0a052ffa2db4e90037562162d6
+    :git: https://github.com/aryaxt/iOS-Rich-Text-Editor.git
+
+CHECKOUT OPTIONS:
+  iOS-Rich-Text-Editor:
+    :commit: 4ddd86bbd6764d0a052ffa2db4e90037562162d6
+    :git: https://github.com/aryaxt/iOS-Rich-Text-Editor.git
+
+SPEC CHECKSUMS:
+  iOS-Rich-Text-Editor: e5203883ce483f2afaad530c3371fe5d08406048
+  WEPopover: 615c27637d1763731cf7c51a9385ff1f25ff4816
+
+PODFILE CHECKSUM: 4f3bfef9d7894b52260344ed029461d1541a8704
+
+COCOAPODS: 1.0.1
