@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AWSCore.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AWSS3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ELCImagePickerController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>JTSImageViewController.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>33B272D9BFD1DED8CD8F95BFCB90AA4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3B50D489E8EF8C80F21E449BA29D59E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7617491E6EE335B5CAE8258C58686D7E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9856E3A02B4D361F323A3CE5F631378A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A0F192860E475C5E0145D8A2423F48F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
