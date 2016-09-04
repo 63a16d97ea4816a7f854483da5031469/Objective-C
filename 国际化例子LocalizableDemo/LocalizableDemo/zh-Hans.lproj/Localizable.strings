@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  LocalizableDemo
+
+  Created by Jordan Cao on 12-9-26.
+  Copyright (c) 2012年 AirView.com. All rights reserved.
+*/
+"enter" = "进入";
+"demo" = "这是一个例子";
